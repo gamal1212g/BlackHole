@@ -1,0 +1,2043 @@
+2026-06-17 04:08:39,316 [ERROR] This script requires root/administrative privileges to sniff network traffic.
+2026-06-17 04:08:53,997 [ERROR] This script requires root/administrative privileges to sniff network traffic.
+2026-06-17 04:09:43,884 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 04:09:43,885 [INFO] Worker thread started.
+2026-06-17 04:09:43,886 [INFO] Config poller thread started.
+2026-06-17 04:09:43,886 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 04:09:43,886 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 04:09:45,985 [INFO] Configuration updated from backend.
+2026-06-17 04:09:58,050 [INFO] Configuration updated from backend.
+2026-06-17 04:10:10,117 [INFO] Configuration updated from backend.
+2026-06-17 04:10:22,169 [INFO] Configuration updated from backend.
+2026-06-17 04:10:34,217 [INFO] Configuration updated from backend.
+2026-06-17 04:10:40,547 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T04:10:40.547513"}
+2026-06-17 04:10:42,607 [INFO] Alert successfully sent to backend.
+2026-06-17 04:10:46,266 [INFO] Configuration updated from backend.
+2026-06-17 04:10:58,299 [INFO] Configuration updated from backend.
+2026-06-17 04:10:58,300 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T04:10:58.300253"}
+2026-06-17 04:11:00,343 [INFO] Alert successfully sent to backend.
+2026-06-17 04:11:10,341 [INFO] Configuration updated from backend.
+2026-06-17 04:11:22,383 [INFO] Configuration updated from backend.
+2026-06-17 04:11:34,425 [INFO] Configuration updated from backend.
+2026-06-17 04:11:46,481 [INFO] Configuration updated from backend.
+2026-06-17 04:11:58,532 [INFO] Configuration updated from backend.
+2026-06-17 04:12:10,569 [INFO] Configuration updated from backend.
+2026-06-17 04:12:22,612 [INFO] Configuration updated from backend.
+2026-06-17 04:12:34,660 [INFO] Configuration updated from backend.
+2026-06-17 04:12:46,695 [INFO] Configuration updated from backend.
+2026-06-17 04:12:58,728 [INFO] Configuration updated from backend.
+2026-06-17 04:13:10,758 [INFO] Configuration updated from backend.
+2026-06-17 04:13:22,782 [INFO] Configuration updated from backend.
+2026-06-17 04:13:34,830 [INFO] Configuration updated from backend.
+2026-06-17 04:13:46,879 [INFO] Configuration updated from backend.
+2026-06-17 04:13:58,919 [INFO] Configuration updated from backend.
+2026-06-17 04:14:10,948 [INFO] Configuration updated from backend.
+2026-06-17 04:14:22,977 [INFO] Configuration updated from backend.
+2026-06-17 04:14:35,022 [INFO] Configuration updated from backend.
+2026-06-17 04:14:47,079 [INFO] Configuration updated from backend.
+2026-06-17 04:14:59,110 [INFO] Configuration updated from backend.
+2026-06-17 04:15:11,155 [INFO] Configuration updated from backend.
+2026-06-17 04:15:23,179 [INFO] Configuration updated from backend.
+2026-06-17 04:15:35,222 [INFO] Configuration updated from backend.
+2026-06-17 04:15:47,276 [INFO] Configuration updated from backend.
+2026-06-17 04:15:59,301 [INFO] Configuration updated from backend.
+2026-06-17 04:16:11,324 [INFO] Configuration updated from backend.
+2026-06-17 04:16:23,369 [INFO] Configuration updated from backend.
+2026-06-17 04:16:35,406 [INFO] Configuration updated from backend.
+2026-06-17 04:16:47,448 [INFO] Configuration updated from backend.
+2026-06-17 04:16:59,496 [INFO] Configuration updated from backend.
+2026-06-17 04:17:11,550 [INFO] Configuration updated from backend.
+2026-06-17 04:17:23,564 [INFO] Configuration updated from backend.
+2026-06-17 04:17:35,598 [INFO] Configuration updated from backend.
+2026-06-17 04:17:47,636 [INFO] Configuration updated from backend.
+2026-06-17 04:17:59,669 [INFO] Configuration updated from backend.
+2026-06-17 04:18:11,708 [INFO] Configuration updated from backend.
+2026-06-17 04:18:23,742 [INFO] Configuration updated from backend.
+2026-06-17 04:18:35,767 [INFO] Configuration updated from backend.
+2026-06-17 04:18:47,808 [INFO] Configuration updated from backend.
+2026-06-17 04:18:59,860 [INFO] Configuration updated from backend.
+2026-06-17 04:19:11,895 [INFO] Configuration updated from backend.
+2026-06-17 04:19:23,939 [INFO] Configuration updated from backend.
+2026-06-17 04:19:35,967 [INFO] Configuration updated from backend.
+2026-06-17 04:19:48,015 [INFO] Configuration updated from backend.
+2026-06-17 04:20:00,040 [INFO] Configuration updated from backend.
+2026-06-17 04:20:12,081 [INFO] Configuration updated from backend.
+2026-06-17 04:20:24,123 [INFO] Configuration updated from backend.
+2026-06-17 04:20:36,150 [INFO] Configuration updated from backend.
+2026-06-17 04:20:48,185 [INFO] Configuration updated from backend.
+2026-06-17 04:21:00,207 [INFO] Configuration updated from backend.
+2026-06-17 04:21:12,262 [INFO] Configuration updated from backend.
+2026-06-17 04:21:24,286 [INFO] Configuration updated from backend.
+2026-06-17 04:21:36,332 [INFO] Configuration updated from backend.
+2026-06-17 04:21:48,377 [INFO] Configuration updated from backend.
+2026-06-17 04:22:00,410 [INFO] Configuration updated from backend.
+2026-06-17 04:22:12,453 [INFO] Configuration updated from backend.
+2026-06-17 04:22:24,500 [INFO] Configuration updated from backend.
+2026-06-17 04:22:36,538 [INFO] Configuration updated from backend.
+2026-06-17 04:22:48,581 [INFO] Configuration updated from backend.
+2026-06-17 04:23:00,619 [INFO] Configuration updated from backend.
+2026-06-17 04:23:12,665 [INFO] Configuration updated from backend.
+2026-06-17 04:23:24,745 [INFO] Configuration updated from backend.
+2026-06-17 04:23:36,778 [INFO] Configuration updated from backend.
+2026-06-17 04:23:36,779 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T04:23:36.779310"}
+2026-06-17 04:23:38,825 [INFO] Alert successfully sent to backend.
+2026-06-17 04:23:48,832 [INFO] Configuration updated from backend.
+2026-06-17 04:24:00,850 [INFO] Configuration updated from backend.
+2026-06-17 04:24:12,876 [INFO] Configuration updated from backend.
+2026-06-17 04:24:24,927 [INFO] Configuration updated from backend.
+2026-06-17 04:24:36,969 [INFO] Configuration updated from backend.
+2026-06-17 04:24:49,014 [INFO] Configuration updated from backend.
+2026-06-17 04:25:01,054 [INFO] Configuration updated from backend.
+2026-06-17 04:25:13,104 [INFO] Configuration updated from backend.
+2026-06-17 04:25:25,170 [INFO] Configuration updated from backend.
+2026-06-17 04:25:37,228 [INFO] Configuration updated from backend.
+2026-06-17 04:25:49,276 [INFO] Configuration updated from backend.
+2026-06-17 04:26:01,318 [INFO] Configuration updated from backend.
+2026-06-17 04:26:13,382 [INFO] Configuration updated from backend.
+2026-06-17 04:26:25,420 [INFO] Configuration updated from backend.
+2026-06-17 04:26:37,486 [INFO] Configuration updated from backend.
+2026-06-17 04:26:49,547 [INFO] Configuration updated from backend.
+2026-06-17 04:27:01,611 [INFO] Configuration updated from backend.
+2026-06-17 04:27:13,649 [INFO] Configuration updated from backend.
+2026-06-17 04:27:25,691 [INFO] Configuration updated from backend.
+2026-06-17 04:27:37,736 [INFO] Configuration updated from backend.
+2026-06-17 04:27:49,777 [INFO] Configuration updated from backend.
+2026-06-17 04:28:01,819 [INFO] Configuration updated from backend.
+2026-06-17 04:28:13,868 [INFO] Configuration updated from backend.
+2026-06-17 04:28:25,913 [INFO] Configuration updated from backend.
+2026-06-17 04:28:37,952 [INFO] Configuration updated from backend.
+2026-06-17 04:28:49,993 [INFO] Configuration updated from backend.
+2026-06-17 04:29:02,051 [INFO] Configuration updated from backend.
+2026-06-17 04:29:14,102 [INFO] Configuration updated from backend.
+2026-06-17 04:29:26,130 [INFO] Configuration updated from backend.
+2026-06-17 04:29:38,163 [INFO] Configuration updated from backend.
+2026-06-17 04:29:50,198 [INFO] Configuration updated from backend.
+2026-06-17 04:30:02,242 [INFO] Configuration updated from backend.
+2026-06-17 04:30:14,279 [INFO] Configuration updated from backend.
+2026-06-17 04:30:26,323 [INFO] Configuration updated from backend.
+2026-06-17 04:30:38,354 [INFO] Configuration updated from backend.
+2026-06-17 04:30:50,393 [INFO] Configuration updated from backend.
+2026-06-17 04:31:02,451 [INFO] Configuration updated from backend.
+2026-06-17 04:31:14,505 [INFO] Configuration updated from backend.
+2026-06-17 04:31:26,544 [INFO] Configuration updated from backend.
+2026-06-17 04:31:38,585 [INFO] Configuration updated from backend.
+2026-06-17 04:31:38,586 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T04:31:38.586022"}
+2026-06-17 04:31:40,621 [INFO] Alert successfully sent to backend.
+2026-06-17 04:31:50,616 [INFO] Configuration updated from backend.
+2026-06-17 04:32:02,678 [INFO] Configuration updated from backend.
+2026-06-17 04:32:14,712 [INFO] Configuration updated from backend.
+2026-06-17 04:32:26,748 [INFO] Configuration updated from backend.
+2026-06-17 04:32:38,763 [INFO] Configuration updated from backend.
+2026-06-17 04:32:50,790 [INFO] Configuration updated from backend.
+2026-06-17 04:33:02,856 [INFO] Configuration updated from backend.
+2026-06-17 04:33:14,886 [INFO] Configuration updated from backend.
+2026-06-17 04:33:26,923 [INFO] Configuration updated from backend.
+2026-06-17 04:33:38,959 [INFO] Configuration updated from backend.
+2026-06-17 04:33:50,994 [INFO] Configuration updated from backend.
+2026-06-17 04:34:03,037 [INFO] Configuration updated from backend.
+2026-06-17 04:34:15,064 [INFO] Configuration updated from backend.
+2026-06-17 04:34:27,098 [INFO] Configuration updated from backend.
+2026-06-17 04:34:39,133 [INFO] Configuration updated from backend.
+2026-06-17 04:34:51,160 [INFO] Configuration updated from backend.
+2026-06-17 04:35:03,188 [INFO] Configuration updated from backend.
+2026-06-17 04:35:15,240 [INFO] Configuration updated from backend.
+2026-06-17 04:35:27,274 [INFO] Configuration updated from backend.
+2026-06-17 04:35:39,322 [INFO] Configuration updated from backend.
+2026-06-17 04:35:51,361 [INFO] Configuration updated from backend.
+2026-06-17 04:36:03,407 [INFO] Configuration updated from backend.
+2026-06-17 04:36:15,451 [INFO] Configuration updated from backend.
+2026-06-17 04:36:27,496 [INFO] Configuration updated from backend.
+2026-06-17 04:36:39,531 [INFO] Configuration updated from backend.
+2026-06-17 04:36:51,573 [INFO] Configuration updated from backend.
+2026-06-17 04:37:03,609 [INFO] Configuration updated from backend.
+2026-06-17 04:37:15,661 [INFO] Configuration updated from backend.
+2026-06-17 04:37:27,697 [INFO] Configuration updated from backend.
+2026-06-17 04:37:39,734 [INFO] Configuration updated from backend.
+2026-06-17 04:37:51,777 [INFO] Configuration updated from backend.
+2026-06-17 04:38:03,817 [INFO] Configuration updated from backend.
+2026-06-17 04:38:15,850 [INFO] Configuration updated from backend.
+2026-06-17 04:38:27,892 [INFO] Configuration updated from backend.
+2026-06-17 04:38:39,955 [INFO] Configuration updated from backend.
+2026-06-17 04:38:51,974 [INFO] Configuration updated from backend.
+2026-06-17 04:39:04,016 [INFO] Configuration updated from backend.
+2026-06-17 04:39:16,064 [INFO] Configuration updated from backend.
+2026-06-17 04:39:28,095 [INFO] Configuration updated from backend.
+2026-06-17 04:39:40,151 [INFO] Configuration updated from backend.
+2026-06-17 04:39:52,205 [INFO] Configuration updated from backend.
+2026-06-17 04:40:04,245 [INFO] Configuration updated from backend.
+2026-06-17 04:40:16,294 [INFO] Configuration updated from backend.
+2026-06-17 04:40:28,350 [INFO] Configuration updated from backend.
+2026-06-17 04:40:40,426 [INFO] Configuration updated from backend.
+2026-06-17 04:40:52,480 [INFO] Configuration updated from backend.
+2026-06-17 04:41:04,531 [INFO] Configuration updated from backend.
+2026-06-17 04:41:16,581 [INFO] Configuration updated from backend.
+2026-06-17 04:41:28,623 [INFO] Configuration updated from backend.
+2026-06-17 04:41:40,679 [INFO] Configuration updated from backend.
+2026-06-17 04:41:52,726 [INFO] Configuration updated from backend.
+2026-06-17 04:42:04,779 [INFO] Configuration updated from backend.
+2026-06-17 04:42:16,834 [INFO] Configuration updated from backend.
+2026-06-17 04:42:28,893 [INFO] Configuration updated from backend.
+2026-06-17 04:42:40,943 [INFO] Configuration updated from backend.
+2026-06-17 04:42:52,982 [INFO] Configuration updated from backend.
+2026-06-17 04:43:05,047 [INFO] Configuration updated from backend.
+2026-06-17 04:43:17,120 [INFO] Configuration updated from backend.
+2026-06-17 04:43:29,188 [INFO] Configuration updated from backend.
+2026-06-17 04:43:41,243 [INFO] Configuration updated from backend.
+2026-06-17 04:43:53,307 [INFO] Configuration updated from backend.
+2026-06-17 04:44:05,359 [INFO] Configuration updated from backend.
+2026-06-17 04:44:17,406 [INFO] Configuration updated from backend.
+2026-06-17 04:44:29,461 [INFO] Configuration updated from backend.
+2026-06-17 04:44:41,500 [INFO] Configuration updated from backend.
+2026-06-17 04:44:53,539 [INFO] Configuration updated from backend.
+2026-06-17 04:45:05,597 [INFO] Configuration updated from backend.
+2026-06-17 04:45:17,663 [INFO] Configuration updated from backend.
+2026-06-17 04:45:29,700 [INFO] Configuration updated from backend.
+2026-06-17 04:45:41,764 [INFO] Configuration updated from backend.
+2026-06-17 04:45:53,819 [INFO] Configuration updated from backend.
+2026-06-17 04:46:05,872 [INFO] Configuration updated from backend.
+2026-06-17 04:46:17,924 [INFO] Configuration updated from backend.
+2026-06-17 04:46:29,971 [INFO] Configuration updated from backend.
+2026-06-17 04:46:41,987 [INFO] Configuration updated from backend.
+2026-06-17 04:46:54,027 [INFO] Configuration updated from backend.
+2026-06-17 04:47:06,088 [INFO] Configuration updated from backend.
+2026-06-17 04:47:18,140 [INFO] Configuration updated from backend.
+2026-06-17 04:47:30,197 [INFO] Configuration updated from backend.
+2026-06-17 04:47:42,251 [INFO] Configuration updated from backend.
+2026-06-17 04:47:54,311 [INFO] Configuration updated from backend.
+2026-06-17 04:48:06,344 [INFO] Configuration updated from backend.
+2026-06-17 04:48:18,372 [INFO] Configuration updated from backend.
+2026-06-17 04:48:30,423 [INFO] Configuration updated from backend.
+2026-06-17 04:48:42,461 [INFO] Configuration updated from backend.
+2026-06-17 04:48:54,507 [INFO] Configuration updated from backend.
+2026-06-17 04:49:06,568 [INFO] Configuration updated from backend.
+2026-06-17 04:49:18,626 [INFO] Configuration updated from backend.
+2026-06-17 04:49:30,687 [INFO] Configuration updated from backend.
+2026-06-17 04:49:42,763 [INFO] Configuration updated from backend.
+2026-06-17 04:49:54,810 [INFO] Configuration updated from backend.
+2026-06-17 04:50:06,867 [INFO] Configuration updated from backend.
+2026-06-17 04:50:18,920 [INFO] Configuration updated from backend.
+2026-06-17 04:50:30,967 [INFO] Configuration updated from backend.
+2026-06-17 04:50:43,015 [INFO] Configuration updated from backend.
+2026-06-17 04:50:55,059 [INFO] Configuration updated from backend.
+2026-06-17 04:51:07,097 [INFO] Configuration updated from backend.
+2026-06-17 04:51:19,155 [INFO] Configuration updated from backend.
+2026-06-17 04:51:31,192 [INFO] Configuration updated from backend.
+2026-06-17 04:51:43,249 [INFO] Configuration updated from backend.
+2026-06-17 04:51:55,304 [INFO] Configuration updated from backend.
+2026-06-17 04:52:07,357 [INFO] Configuration updated from backend.
+2026-06-17 04:52:19,400 [INFO] Configuration updated from backend.
+2026-06-17 04:52:31,454 [INFO] Configuration updated from backend.
+2026-06-17 04:52:43,507 [INFO] Configuration updated from backend.
+2026-06-17 04:52:55,559 [INFO] Configuration updated from backend.
+2026-06-17 04:53:07,615 [INFO] Configuration updated from backend.
+2026-06-17 04:53:19,652 [INFO] Configuration updated from backend.
+2026-06-17 04:53:31,692 [INFO] Configuration updated from backend.
+2026-06-17 04:53:43,736 [INFO] Configuration updated from backend.
+2026-06-17 04:53:55,784 [INFO] Configuration updated from backend.
+2026-06-17 04:54:07,826 [INFO] Configuration updated from backend.
+2026-06-17 04:54:19,859 [INFO] Configuration updated from backend.
+2026-06-17 04:54:31,938 [INFO] Configuration updated from backend.
+2026-06-17 04:54:43,994 [INFO] Configuration updated from backend.
+2026-06-17 04:54:56,053 [INFO] Configuration updated from backend.
+2026-06-17 04:55:08,114 [INFO] Configuration updated from backend.
+2026-06-17 04:55:20,179 [INFO] Configuration updated from backend.
+2026-06-17 04:55:32,229 [INFO] Configuration updated from backend.
+2026-06-17 04:55:44,277 [INFO] Configuration updated from backend.
+2026-06-17 04:55:56,322 [INFO] Configuration updated from backend.
+2026-06-17 04:56:08,367 [INFO] Configuration updated from backend.
+2026-06-17 04:56:20,405 [INFO] Configuration updated from backend.
+2026-06-17 04:56:32,441 [INFO] Configuration updated from backend.
+2026-06-17 04:56:44,495 [INFO] Configuration updated from backend.
+2026-06-17 04:56:56,523 [INFO] Configuration updated from backend.
+2026-06-17 04:57:08,578 [INFO] Configuration updated from backend.
+2026-06-17 04:57:20,618 [INFO] Configuration updated from backend.
+2026-06-17 04:57:32,669 [INFO] Configuration updated from backend.
+2026-06-17 04:57:44,732 [INFO] Configuration updated from backend.
+2026-06-17 04:57:56,792 [INFO] Configuration updated from backend.
+2026-06-17 04:58:08,854 [INFO] Configuration updated from backend.
+2026-06-17 04:58:20,897 [INFO] Configuration updated from backend.
+2026-06-17 04:58:32,941 [INFO] Configuration updated from backend.
+2026-06-17 04:58:44,998 [INFO] Configuration updated from backend.
+2026-06-17 04:58:57,048 [INFO] Configuration updated from backend.
+2026-06-17 04:59:09,080 [INFO] Configuration updated from backend.
+2026-06-17 04:59:21,129 [INFO] Configuration updated from backend.
+2026-06-17 04:59:33,160 [INFO] Configuration updated from backend.
+2026-06-17 04:59:45,216 [INFO] Configuration updated from backend.
+2026-06-17 04:59:57,265 [INFO] Configuration updated from backend.
+2026-06-17 05:00:09,307 [INFO] Configuration updated from backend.
+2026-06-17 05:00:21,376 [INFO] Configuration updated from backend.
+2026-06-17 05:00:33,431 [INFO] Configuration updated from backend.
+2026-06-17 05:00:45,494 [INFO] Configuration updated from backend.
+2026-06-17 05:00:57,541 [INFO] Configuration updated from backend.
+2026-06-17 05:01:09,588 [INFO] Configuration updated from backend.
+2026-06-17 05:01:21,647 [INFO] Configuration updated from backend.
+2026-06-17 05:01:33,693 [INFO] Configuration updated from backend.
+2026-06-17 05:01:34,475 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T05:01:34.475627"}
+2026-06-17 05:01:36,541 [INFO] Alert successfully sent to backend.
+2026-06-17 05:01:45,738 [INFO] Configuration updated from backend.
+2026-06-17 05:01:57,774 [INFO] Configuration updated from backend.
+2026-06-17 05:02:09,820 [INFO] Configuration updated from backend.
+2026-06-17 05:02:21,864 [INFO] Configuration updated from backend.
+2026-06-17 05:02:33,911 [INFO] Configuration updated from backend.
+2026-06-17 05:02:45,972 [INFO] Configuration updated from backend.
+2026-06-17 05:02:57,996 [INFO] Configuration updated from backend.
+2026-06-17 05:03:10,058 [INFO] Configuration updated from backend.
+2026-06-17 05:03:22,087 [INFO] Configuration updated from backend.
+2026-06-17 05:03:34,124 [INFO] Configuration updated from backend.
+2026-06-17 05:03:46,152 [INFO] Configuration updated from backend.
+2026-06-17 05:03:58,205 [INFO] Configuration updated from backend.
+2026-06-17 05:04:10,246 [INFO] Configuration updated from backend.
+2026-06-17 05:04:22,292 [INFO] Configuration updated from backend.
+2026-06-17 05:04:34,341 [INFO] Configuration updated from backend.
+2026-06-17 05:04:46,395 [INFO] Configuration updated from backend.
+2026-06-17 05:04:58,450 [INFO] Configuration updated from backend.
+2026-06-17 05:05:10,499 [INFO] Configuration updated from backend.
+2026-06-17 05:05:22,558 [INFO] Configuration updated from backend.
+2026-06-17 05:05:34,603 [INFO] Configuration updated from backend.
+2026-06-17 05:05:46,658 [INFO] Configuration updated from backend.
+2026-06-17 05:05:58,715 [INFO] Configuration updated from backend.
+2026-06-17 05:06:10,781 [INFO] Configuration updated from backend.
+2026-06-17 05:06:22,807 [INFO] Configuration updated from backend.
+2026-06-17 05:06:34,842 [INFO] Configuration updated from backend.
+2026-06-17 05:06:46,883 [INFO] Configuration updated from backend.
+2026-06-17 05:06:58,923 [INFO] Configuration updated from backend.
+2026-06-17 05:07:10,982 [INFO] Configuration updated from backend.
+2026-06-17 05:07:23,033 [INFO] Configuration updated from backend.
+2026-06-17 05:07:35,069 [INFO] Configuration updated from backend.
+2026-06-17 05:07:47,115 [INFO] Configuration updated from backend.
+2026-06-17 05:07:59,168 [INFO] Configuration updated from backend.
+2026-06-17 05:08:11,210 [INFO] Configuration updated from backend.
+2026-06-17 05:08:23,242 [INFO] Configuration updated from backend.
+2026-06-17 05:08:35,286 [INFO] Configuration updated from backend.
+2026-06-17 05:08:47,336 [INFO] Configuration updated from backend.
+2026-06-17 05:08:59,401 [INFO] Configuration updated from backend.
+2026-06-17 05:09:11,441 [INFO] Configuration updated from backend.
+2026-06-17 05:09:23,500 [INFO] Configuration updated from backend.
+2026-06-17 05:09:35,559 [INFO] Configuration updated from backend.
+2026-06-17 05:09:47,595 [INFO] Configuration updated from backend.
+2026-06-17 05:09:59,649 [INFO] Configuration updated from backend.
+2026-06-17 05:10:11,713 [INFO] Configuration updated from backend.
+2026-06-17 05:10:23,757 [INFO] Configuration updated from backend.
+2026-06-17 05:10:35,810 [INFO] Configuration updated from backend.
+2026-06-17 05:10:47,860 [INFO] Configuration updated from backend.
+2026-06-17 05:10:59,925 [INFO] Configuration updated from backend.
+2026-06-17 05:11:11,949 [INFO] Configuration updated from backend.
+2026-06-17 05:11:24,000 [INFO] Configuration updated from backend.
+2026-06-17 05:11:36,057 [INFO] Configuration updated from backend.
+2026-06-17 05:11:48,100 [INFO] Configuration updated from backend.
+2026-06-17 05:12:00,144 [INFO] Configuration updated from backend.
+2026-06-17 05:12:12,204 [INFO] Configuration updated from backend.
+2026-06-17 05:12:24,252 [INFO] Configuration updated from backend.
+2026-06-17 05:12:36,308 [INFO] Configuration updated from backend.
+2026-06-17 05:12:48,344 [INFO] Configuration updated from backend.
+2026-06-17 05:13:00,396 [INFO] Configuration updated from backend.
+2026-06-17 05:13:12,424 [INFO] Configuration updated from backend.
+2026-06-17 05:13:24,468 [INFO] Configuration updated from backend.
+2026-06-17 05:13:36,518 [INFO] Configuration updated from backend.
+2026-06-17 05:13:48,577 [INFO] Configuration updated from backend.
+2026-06-17 05:14:00,623 [INFO] Configuration updated from backend.
+2026-06-17 05:14:12,636 [INFO] Configuration updated from backend.
+2026-06-17 05:14:24,657 [INFO] Configuration updated from backend.
+2026-06-17 05:14:36,699 [INFO] Configuration updated from backend.
+2026-06-17 05:14:48,741 [INFO] Configuration updated from backend.
+2026-06-17 05:15:00,774 [INFO] Configuration updated from backend.
+2026-06-17 05:15:12,822 [INFO] Configuration updated from backend.
+2026-06-17 05:15:24,852 [INFO] Configuration updated from backend.
+2026-06-17 05:15:36,873 [INFO] Configuration updated from backend.
+2026-06-17 05:15:48,925 [INFO] Configuration updated from backend.
+2026-06-17 05:16:00,990 [INFO] Configuration updated from backend.
+2026-06-17 05:16:13,031 [INFO] Configuration updated from backend.
+2026-06-17 05:16:25,066 [INFO] Configuration updated from backend.
+2026-06-17 05:16:37,097 [INFO] Configuration updated from backend.
+2026-06-17 05:16:49,137 [INFO] Configuration updated from backend.
+2026-06-17 05:17:01,193 [INFO] Configuration updated from backend.
+2026-06-17 05:17:13,231 [INFO] Configuration updated from backend.
+2026-06-17 05:17:25,286 [INFO] Configuration updated from backend.
+2026-06-17 05:17:37,326 [INFO] Configuration updated from backend.
+2026-06-17 05:17:49,391 [INFO] Configuration updated from backend.
+2026-06-17 05:18:01,436 [INFO] Configuration updated from backend.
+2026-06-17 05:18:13,484 [INFO] Configuration updated from backend.
+2026-06-17 05:18:25,512 [INFO] Configuration updated from backend.
+2026-06-17 05:18:37,557 [INFO] Configuration updated from backend.
+2026-06-17 05:18:49,634 [INFO] Configuration updated from backend.
+2026-06-17 05:19:01,689 [INFO] Configuration updated from backend.
+2026-06-17 05:19:13,749 [INFO] Configuration updated from backend.
+2026-06-17 05:19:25,809 [INFO] Configuration updated from backend.
+2026-06-17 05:19:37,839 [INFO] Configuration updated from backend.
+2026-06-17 05:19:49,894 [INFO] Configuration updated from backend.
+2026-06-17 05:20:01,918 [INFO] Configuration updated from backend.
+2026-06-17 05:20:13,957 [INFO] Configuration updated from backend.
+2026-06-17 05:20:25,991 [INFO] Configuration updated from backend.
+2026-06-17 05:20:38,031 [INFO] Configuration updated from backend.
+2026-06-17 05:20:50,084 [INFO] Configuration updated from backend.
+2026-06-17 05:21:02,122 [INFO] Configuration updated from backend.
+2026-06-17 05:21:14,193 [INFO] Configuration updated from backend.
+2026-06-17 05:21:26,253 [INFO] Configuration updated from backend.
+2026-06-17 05:21:38,306 [INFO] Configuration updated from backend.
+2026-06-17 05:21:50,349 [INFO] Configuration updated from backend.
+2026-06-17 05:22:02,380 [INFO] Configuration updated from backend.
+2026-06-17 05:22:14,420 [INFO] Configuration updated from backend.
+2026-06-17 05:22:26,470 [INFO] Configuration updated from backend.
+2026-06-17 05:22:38,543 [INFO] Configuration updated from backend.
+2026-06-17 05:22:50,569 [INFO] Configuration updated from backend.
+2026-06-17 05:23:02,620 [INFO] Configuration updated from backend.
+2026-06-17 05:23:14,665 [INFO] Configuration updated from backend.
+2026-06-17 05:23:26,703 [INFO] Configuration updated from backend.
+2026-06-17 05:23:38,759 [INFO] Configuration updated from backend.
+2026-06-17 05:23:50,807 [INFO] Configuration updated from backend.
+2026-06-17 05:24:02,863 [INFO] Configuration updated from backend.
+2026-06-17 05:24:14,896 [INFO] Configuration updated from backend.
+2026-06-17 05:24:26,940 [INFO] Configuration updated from backend.
+2026-06-17 05:24:38,980 [INFO] Configuration updated from backend.
+2026-06-17 05:24:51,026 [INFO] Configuration updated from backend.
+2026-06-17 05:25:03,077 [INFO] Configuration updated from backend.
+2026-06-17 05:25:15,116 [INFO] Configuration updated from backend.
+2026-06-17 05:25:27,167 [INFO] Configuration updated from backend.
+2026-06-17 05:25:39,215 [INFO] Configuration updated from backend.
+2026-06-17 05:25:51,284 [INFO] Configuration updated from backend.
+2026-06-17 05:26:03,332 [INFO] Configuration updated from backend.
+2026-06-17 05:26:15,403 [INFO] Configuration updated from backend.
+2026-06-17 05:26:27,465 [INFO] Configuration updated from backend.
+2026-06-17 05:26:39,525 [INFO] Configuration updated from backend.
+2026-06-17 05:26:51,577 [INFO] Configuration updated from backend.
+2026-06-17 05:27:03,643 [INFO] Configuration updated from backend.
+2026-06-17 05:27:15,684 [INFO] Configuration updated from backend.
+2026-06-17 05:27:27,729 [INFO] Configuration updated from backend.
+2026-06-17 05:27:39,755 [INFO] Configuration updated from backend.
+2026-06-17 05:27:51,808 [INFO] Configuration updated from backend.
+2026-06-17 05:28:03,858 [INFO] Configuration updated from backend.
+2026-06-17 05:28:15,899 [INFO] Configuration updated from backend.
+2026-06-17 05:28:27,944 [INFO] Configuration updated from backend.
+2026-06-17 05:28:39,982 [INFO] Configuration updated from backend.
+2026-06-17 05:28:52,031 [INFO] Configuration updated from backend.
+2026-06-17 05:29:04,092 [INFO] Configuration updated from backend.
+2026-06-17 05:29:16,118 [INFO] Configuration updated from backend.
+2026-06-17 05:29:28,169 [INFO] Configuration updated from backend.
+2026-06-17 05:29:40,228 [INFO] Configuration updated from backend.
+2026-06-17 05:29:52,266 [INFO] Configuration updated from backend.
+2026-06-17 05:30:04,323 [INFO] Configuration updated from backend.
+2026-06-17 05:30:16,370 [INFO] Configuration updated from backend.
+2026-06-17 05:30:28,424 [INFO] Configuration updated from backend.
+2026-06-17 05:30:40,480 [INFO] Configuration updated from backend.
+2026-06-17 05:30:52,524 [INFO] Configuration updated from backend.
+2026-06-17 05:31:04,567 [INFO] Configuration updated from backend.
+2026-06-17 05:31:16,616 [INFO] Configuration updated from backend.
+2026-06-17 05:31:28,669 [INFO] Configuration updated from backend.
+2026-06-17 05:31:40,720 [INFO] Configuration updated from backend.
+2026-06-17 05:31:52,765 [INFO] Configuration updated from backend.
+2026-06-17 05:32:04,804 [INFO] Configuration updated from backend.
+2026-06-17 05:32:16,859 [INFO] Configuration updated from backend.
+2026-06-17 05:32:28,905 [INFO] Configuration updated from backend.
+2026-06-17 05:32:40,961 [INFO] Configuration updated from backend.
+2026-06-17 05:32:53,027 [INFO] Configuration updated from backend.
+2026-06-17 05:33:05,082 [INFO] Configuration updated from backend.
+2026-06-17 05:33:17,145 [INFO] Configuration updated from backend.
+2026-06-17 05:33:29,178 [INFO] Configuration updated from backend.
+2026-06-17 05:33:41,219 [INFO] Configuration updated from backend.
+2026-06-17 05:33:53,276 [INFO] Configuration updated from backend.
+2026-06-17 05:34:05,345 [INFO] Configuration updated from backend.
+2026-06-17 05:34:17,377 [INFO] Configuration updated from backend.
+2026-06-17 05:34:29,430 [INFO] Configuration updated from backend.
+2026-06-17 05:34:41,477 [INFO] Configuration updated from backend.
+2026-06-17 05:34:53,516 [INFO] Configuration updated from backend.
+2026-06-17 05:35:05,539 [INFO] Configuration updated from backend.
+2026-06-17 05:35:17,570 [INFO] Configuration updated from backend.
+2026-06-17 05:35:29,593 [INFO] Configuration updated from backend.
+2026-06-17 05:35:41,637 [INFO] Configuration updated from backend.
+2026-06-17 05:35:53,693 [INFO] Configuration updated from backend.
+2026-06-17 05:36:05,732 [INFO] Configuration updated from backend.
+2026-06-17 05:36:17,791 [INFO] Configuration updated from backend.
+2026-06-17 05:36:29,841 [INFO] Configuration updated from backend.
+2026-06-17 05:36:41,876 [INFO] Configuration updated from backend.
+2026-06-17 05:36:53,912 [INFO] Configuration updated from backend.
+2026-06-17 05:37:05,961 [INFO] Configuration updated from backend.
+2026-06-17 05:37:18,018 [INFO] Configuration updated from backend.
+2026-06-17 05:37:30,076 [INFO] Configuration updated from backend.
+2026-06-17 05:37:42,116 [INFO] Configuration updated from backend.
+2026-06-17 05:37:54,173 [INFO] Configuration updated from backend.
+2026-06-17 05:38:06,231 [INFO] Configuration updated from backend.
+2026-06-17 05:38:18,264 [INFO] Configuration updated from backend.
+2026-06-17 05:38:30,302 [INFO] Configuration updated from backend.
+2026-06-17 05:38:42,347 [INFO] Configuration updated from backend.
+2026-06-17 05:38:54,392 [INFO] Configuration updated from backend.
+2026-06-17 05:39:06,450 [INFO] Configuration updated from backend.
+2026-06-17 05:39:18,502 [INFO] Configuration updated from backend.
+2026-06-17 05:39:30,560 [INFO] Configuration updated from backend.
+2026-06-17 05:39:42,615 [INFO] Configuration updated from backend.
+2026-06-17 05:39:54,675 [INFO] Configuration updated from backend.
+2026-06-17 05:40:06,724 [INFO] Configuration updated from backend.
+2026-06-17 05:40:18,758 [INFO] Configuration updated from backend.
+2026-06-17 05:40:30,817 [INFO] Configuration updated from backend.
+2026-06-17 05:40:42,872 [INFO] Configuration updated from backend.
+2026-06-17 05:40:54,920 [INFO] Configuration updated from backend.
+2026-06-17 05:41:09,918 [INFO] Configuration updated from backend.
+2026-06-17 05:41:21,978 [INFO] Configuration updated from backend.
+2026-06-17 05:41:34,043 [INFO] Configuration updated from backend.
+2026-06-17 05:41:46,098 [INFO] Configuration updated from backend.
+2026-06-17 05:41:58,147 [INFO] Configuration updated from backend.
+2026-06-17 05:42:10,203 [INFO] Configuration updated from backend.
+2026-06-17 05:42:22,277 [INFO] Configuration updated from backend.
+2026-06-17 05:42:34,310 [INFO] Configuration updated from backend.
+2026-06-17 05:42:46,346 [INFO] Configuration updated from backend.
+2026-06-17 05:42:58,367 [INFO] Configuration updated from backend.
+2026-06-17 05:43:10,404 [INFO] Configuration updated from backend.
+2026-06-17 05:43:22,435 [INFO] Configuration updated from backend.
+2026-06-17 05:43:34,489 [INFO] Configuration updated from backend.
+2026-06-17 05:43:46,548 [INFO] Configuration updated from backend.
+2026-06-17 05:43:58,585 [INFO] Configuration updated from backend.
+2026-06-17 05:44:10,659 [INFO] Configuration updated from backend.
+2026-06-17 05:44:22,711 [INFO] Configuration updated from backend.
+2026-06-17 05:44:34,750 [INFO] Configuration updated from backend.
+2026-06-17 05:44:46,781 [INFO] Configuration updated from backend.
+2026-06-17 05:44:58,827 [INFO] Configuration updated from backend.
+2026-06-17 05:45:10,865 [INFO] Configuration updated from backend.
+2026-06-17 05:45:22,902 [INFO] Configuration updated from backend.
+2026-06-17 05:45:34,965 [INFO] Configuration updated from backend.
+2026-06-17 05:45:47,013 [INFO] Configuration updated from backend.
+2026-06-17 05:45:59,055 [INFO] Configuration updated from backend.
+2026-06-17 05:46:11,091 [INFO] Configuration updated from backend.
+2026-06-17 05:46:23,124 [INFO] Configuration updated from backend.
+2026-06-17 05:46:35,157 [INFO] Configuration updated from backend.
+2026-06-17 05:46:47,196 [INFO] Configuration updated from backend.
+2026-06-17 05:46:59,232 [INFO] Configuration updated from backend.
+2026-06-17 05:47:11,283 [INFO] Configuration updated from backend.
+2026-06-17 05:47:23,320 [INFO] Configuration updated from backend.
+2026-06-17 05:47:35,378 [INFO] Configuration updated from backend.
+2026-06-17 05:47:47,406 [INFO] Configuration updated from backend.
+2026-06-17 05:47:59,447 [INFO] Configuration updated from backend.
+2026-06-17 05:48:11,485 [INFO] Configuration updated from backend.
+2026-06-17 05:48:23,533 [INFO] Configuration updated from backend.
+2026-06-17 05:48:35,591 [INFO] Configuration updated from backend.
+2026-06-17 05:48:47,644 [INFO] Configuration updated from backend.
+2026-06-17 05:48:59,661 [INFO] Configuration updated from backend.
+2026-06-17 05:49:11,720 [INFO] Configuration updated from backend.
+2026-06-17 05:49:23,749 [INFO] Configuration updated from backend.
+2026-06-17 05:49:35,811 [INFO] Configuration updated from backend.
+2026-06-17 05:49:47,862 [INFO] Configuration updated from backend.
+2026-06-17 05:49:59,905 [INFO] Configuration updated from backend.
+2026-06-17 05:50:09,798 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T05:50:09.798334"}
+2026-06-17 05:50:11,842 [INFO] Alert successfully sent to backend.
+2026-06-17 05:50:11,951 [INFO] Configuration updated from backend.
+2026-06-17 05:50:24,006 [INFO] Configuration updated from backend.
+2026-06-17 05:50:36,059 [INFO] Configuration updated from backend.
+2026-06-17 05:50:48,098 [INFO] Configuration updated from backend.
+2026-06-17 05:50:58,226 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T05:50:58.226121"}
+2026-06-17 05:51:00,264 [INFO] Alert successfully sent to backend.
+2026-06-17 05:51:00,266 [INFO] Configuration updated from backend.
+2026-06-17 05:51:12,324 [INFO] Configuration updated from backend.
+2026-06-17 05:51:24,381 [INFO] Configuration updated from backend.
+2026-06-17 05:51:36,409 [INFO] Configuration updated from backend.
+2026-06-17 05:51:48,450 [INFO] Configuration updated from backend.
+2026-06-17 05:52:00,504 [INFO] Configuration updated from backend.
+2026-06-17 05:52:12,567 [INFO] Configuration updated from backend.
+2026-06-17 05:52:24,610 [INFO] Configuration updated from backend.
+2026-06-17 05:52:36,670 [INFO] Configuration updated from backend.
+2026-06-17 05:52:48,698 [INFO] Configuration updated from backend.
+2026-06-17 05:52:59,611 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T05:52:59.611726"}
+2026-06-17 05:53:01,667 [INFO] Alert successfully sent to backend.
+2026-06-17 05:53:01,670 [INFO] Configuration updated from backend.
+2026-06-17 05:53:13,727 [INFO] Configuration updated from backend.
+2026-06-17 05:53:25,765 [INFO] Configuration updated from backend.
+2026-06-17 05:53:37,806 [INFO] Configuration updated from backend.
+2026-06-17 05:53:49,851 [INFO] Configuration updated from backend.
+2026-06-17 05:54:01,878 [INFO] Configuration updated from backend.
+2026-06-17 05:54:13,926 [INFO] Configuration updated from backend.
+2026-06-17 05:54:25,517 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T05:54:25.517189"}
+2026-06-17 05:54:27,565 [INFO] Alert successfully sent to backend.
+2026-06-17 05:54:27,569 [INFO] Configuration updated from backend.
+2026-06-17 05:54:39,623 [INFO] Configuration updated from backend.
+2026-06-17 05:54:51,676 [INFO] Configuration updated from backend.
+2026-06-17 05:55:03,721 [INFO] Configuration updated from backend.
+2026-06-17 05:55:15,752 [INFO] Configuration updated from backend.
+2026-06-17 05:55:27,819 [INFO] Configuration updated from backend.
+2026-06-17 05:55:39,571 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T05:55:39.571296"}
+2026-06-17 05:55:41,631 [INFO] Alert successfully sent to backend.
+2026-06-17 05:55:41,633 [INFO] Configuration updated from backend.
+2026-06-17 05:55:53,654 [INFO] Configuration updated from backend.
+2026-06-17 05:56:05,719 [INFO] Configuration updated from backend.
+2026-06-17 05:56:17,745 [INFO] Configuration updated from backend.
+2026-06-17 05:56:29,787 [INFO] Configuration updated from backend.
+2026-06-17 05:56:41,818 [INFO] Configuration updated from backend.
+2026-06-17 05:56:53,862 [INFO] Configuration updated from backend.
+2026-06-17 05:57:05,892 [INFO] Configuration updated from backend.
+2026-06-17 05:57:17,960 [INFO] Configuration updated from backend.
+2026-06-17 05:57:30,007 [INFO] Configuration updated from backend.
+2026-06-17 05:57:42,066 [INFO] Configuration updated from backend.
+2026-06-17 05:57:54,109 [INFO] Configuration updated from backend.
+2026-06-17 05:58:06,148 [INFO] Configuration updated from backend.
+2026-06-17 05:58:18,190 [INFO] Configuration updated from backend.
+2026-06-17 05:58:30,233 [INFO] Configuration updated from backend.
+2026-06-17 05:58:42,305 [INFO] Configuration updated from backend.
+2026-06-17 05:58:54,366 [INFO] Configuration updated from backend.
+2026-06-17 05:59:06,420 [INFO] Configuration updated from backend.
+2026-06-17 05:59:18,474 [INFO] Configuration updated from backend.
+2026-06-17 05:59:30,541 [INFO] Configuration updated from backend.
+2026-06-17 05:59:42,604 [INFO] Configuration updated from backend.
+2026-06-17 05:59:54,685 [INFO] Configuration updated from backend.
+2026-06-17 06:00:06,720 [INFO] Configuration updated from backend.
+2026-06-17 06:00:18,785 [INFO] Configuration updated from backend.
+2026-06-17 06:00:30,849 [INFO] Configuration updated from backend.
+2026-06-17 06:00:42,902 [INFO] Configuration updated from backend.
+2026-06-17 06:00:54,943 [INFO] Configuration updated from backend.
+2026-06-17 06:01:06,988 [INFO] Configuration updated from backend.
+2026-06-17 06:01:19,017 [INFO] Configuration updated from backend.
+2026-06-17 06:01:31,064 [INFO] Configuration updated from backend.
+2026-06-17 06:01:43,098 [INFO] Configuration updated from backend.
+2026-06-17 06:01:55,131 [INFO] Configuration updated from backend.
+2026-06-17 06:02:07,161 [INFO] Configuration updated from backend.
+2026-06-17 06:02:19,208 [INFO] Configuration updated from backend.
+2026-06-17 06:02:31,261 [INFO] Configuration updated from backend.
+2026-06-17 06:02:43,301 [INFO] Configuration updated from backend.
+2026-06-17 06:02:55,332 [INFO] Configuration updated from backend.
+2026-06-17 06:03:07,376 [INFO] Configuration updated from backend.
+2026-06-17 06:03:19,424 [INFO] Configuration updated from backend.
+2026-06-17 06:03:31,452 [INFO] Configuration updated from backend.
+2026-06-17 06:03:43,531 [INFO] Configuration updated from backend.
+2026-06-17 06:03:55,582 [INFO] Configuration updated from backend.
+2026-06-17 06:04:07,623 [INFO] Configuration updated from backend.
+2026-06-17 06:04:19,651 [INFO] Configuration updated from backend.
+2026-06-17 06:04:31,699 [INFO] Configuration updated from backend.
+2026-06-17 06:04:43,740 [INFO] Configuration updated from backend.
+2026-06-17 06:04:55,784 [INFO] Configuration updated from backend.
+2026-06-17 06:05:07,809 [INFO] Configuration updated from backend.
+2026-06-17 06:05:19,855 [INFO] Configuration updated from backend.
+2026-06-17 06:05:31,880 [INFO] Configuration updated from backend.
+2026-06-17 06:05:43,925 [INFO] Configuration updated from backend.
+2026-06-17 06:05:48,645 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T06:05:48.645665"}
+2026-06-17 06:05:50,721 [INFO] Alert successfully sent to backend.
+2026-06-17 06:05:55,964 [INFO] Configuration updated from backend.
+2026-06-17 06:06:08,010 [INFO] Configuration updated from backend.
+2026-06-17 06:06:20,044 [INFO] Configuration updated from backend.
+2026-06-17 06:06:32,079 [INFO] Configuration updated from backend.
+2026-06-17 06:06:44,140 [INFO] Configuration updated from backend.
+2026-06-17 06:06:56,200 [INFO] Configuration updated from backend.
+2026-06-17 06:07:08,254 [INFO] Configuration updated from backend.
+2026-06-17 06:07:20,330 [INFO] Configuration updated from backend.
+2026-06-17 06:07:32,361 [INFO] Configuration updated from backend.
+2026-06-17 06:07:44,416 [INFO] Configuration updated from backend.
+2026-06-17 06:07:56,454 [INFO] Configuration updated from backend.
+2026-06-17 06:08:08,494 [INFO] Configuration updated from backend.
+2026-06-17 06:08:20,528 [INFO] Configuration updated from backend.
+2026-06-17 06:08:32,574 [INFO] Configuration updated from backend.
+2026-06-17 06:08:44,615 [INFO] Configuration updated from backend.
+2026-06-17 06:08:56,661 [INFO] Configuration updated from backend.
+2026-06-17 06:09:08,703 [INFO] Configuration updated from backend.
+2026-06-17 06:09:20,734 [INFO] Configuration updated from backend.
+2026-06-17 06:09:32,786 [INFO] Configuration updated from backend.
+2026-06-17 06:09:44,825 [INFO] Configuration updated from backend.
+2026-06-17 06:09:56,888 [INFO] Configuration updated from backend.
+2026-06-17 06:10:08,943 [INFO] Configuration updated from backend.
+2026-06-17 06:10:20,969 [INFO] Configuration updated from backend.
+2026-06-17 06:10:33,016 [INFO] Configuration updated from backend.
+2026-06-17 06:10:45,061 [INFO] Configuration updated from backend.
+2026-06-17 06:10:57,115 [INFO] Configuration updated from backend.
+2026-06-17 06:11:09,155 [INFO] Configuration updated from backend.
+2026-06-17 06:11:21,209 [INFO] Configuration updated from backend.
+2026-06-17 06:11:33,251 [INFO] Configuration updated from backend.
+2026-06-17 06:11:45,296 [INFO] Configuration updated from backend.
+2026-06-17 06:11:57,344 [INFO] Configuration updated from backend.
+2026-06-17 06:12:09,376 [INFO] Configuration updated from backend.
+2026-06-17 06:12:21,430 [INFO] Configuration updated from backend.
+2026-06-17 06:12:33,496 [INFO] Configuration updated from backend.
+2026-06-17 06:12:45,563 [INFO] Configuration updated from backend.
+2026-06-17 06:12:57,604 [INFO] Configuration updated from backend.
+2026-06-17 06:13:09,644 [INFO] Configuration updated from backend.
+2026-06-17 06:13:21,696 [INFO] Configuration updated from backend.
+2026-06-17 06:13:33,715 [INFO] Configuration updated from backend.
+2026-06-17 06:13:45,757 [INFO] Configuration updated from backend.
+2026-06-17 06:13:57,796 [INFO] Configuration updated from backend.
+2026-06-17 06:14:09,831 [INFO] Configuration updated from backend.
+2026-06-17 06:14:21,873 [INFO] Configuration updated from backend.
+2026-06-17 06:14:33,927 [INFO] Configuration updated from backend.
+2026-06-17 06:14:45,981 [INFO] Configuration updated from backend.
+2026-06-17 06:14:58,017 [INFO] Configuration updated from backend.
+2026-06-17 06:15:10,067 [INFO] Configuration updated from backend.
+2026-06-17 06:15:22,114 [INFO] Configuration updated from backend.
+2026-06-17 06:15:34,159 [INFO] Configuration updated from backend.
+2026-06-17 06:15:46,229 [INFO] Configuration updated from backend.
+2026-06-17 06:15:58,266 [INFO] Configuration updated from backend.
+2026-06-17 06:16:10,314 [INFO] Configuration updated from backend.
+2026-06-17 06:16:22,346 [INFO] Configuration updated from backend.
+2026-06-17 06:16:34,409 [INFO] Configuration updated from backend.
+2026-06-17 06:16:46,436 [INFO] Configuration updated from backend.
+2026-06-17 06:16:58,487 [INFO] Configuration updated from backend.
+2026-06-17 06:17:10,532 [INFO] Configuration updated from backend.
+2026-06-17 06:17:22,572 [INFO] Configuration updated from backend.
+2026-06-17 06:17:34,619 [INFO] Configuration updated from backend.
+2026-06-17 06:17:46,668 [INFO] Configuration updated from backend.
+2026-06-17 06:17:58,728 [INFO] Configuration updated from backend.
+2026-06-17 06:18:10,766 [INFO] Configuration updated from backend.
+2026-06-17 06:18:22,791 [INFO] Configuration updated from backend.
+2026-06-17 06:18:34,821 [INFO] Configuration updated from backend.
+2026-06-17 06:18:46,877 [INFO] Configuration updated from backend.
+2026-06-17 06:18:58,920 [INFO] Configuration updated from backend.
+2026-06-17 06:19:10,944 [INFO] Configuration updated from backend.
+2026-06-17 06:19:23,049 [INFO] Configuration updated from backend.
+2026-06-17 06:19:35,113 [INFO] Configuration updated from backend.
+2026-06-17 06:19:47,138 [INFO] Configuration updated from backend.
+2026-06-17 06:19:59,158 [INFO] Configuration updated from backend.
+2026-06-17 06:20:11,194 [INFO] Configuration updated from backend.
+2026-06-17 06:20:23,258 [INFO] Configuration updated from backend.
+2026-06-17 06:20:35,302 [INFO] Configuration updated from backend.
+2026-06-17 06:20:47,368 [INFO] Configuration updated from backend.
+2026-06-17 06:20:59,421 [INFO] Configuration updated from backend.
+2026-06-17 06:21:11,463 [INFO] Configuration updated from backend.
+2026-06-17 06:21:23,511 [INFO] Configuration updated from backend.
+2026-06-17 06:21:35,559 [INFO] Configuration updated from backend.
+2026-06-17 06:21:47,612 [INFO] Configuration updated from backend.
+2026-06-17 06:21:59,660 [INFO] Configuration updated from backend.
+2026-06-17 06:22:11,678 [INFO] Configuration updated from backend.
+2026-06-17 06:22:23,722 [INFO] Configuration updated from backend.
+2026-06-17 06:22:35,743 [INFO] Configuration updated from backend.
+2026-06-17 06:22:47,785 [INFO] Configuration updated from backend.
+2026-06-17 06:22:59,831 [INFO] Configuration updated from backend.
+2026-06-17 06:23:11,881 [INFO] Configuration updated from backend.
+2026-06-17 06:23:23,920 [INFO] Configuration updated from backend.
+2026-06-17 06:23:35,947 [INFO] Configuration updated from backend.
+2026-06-17 06:23:48,007 [INFO] Configuration updated from backend.
+2026-06-17 06:24:00,040 [INFO] Configuration updated from backend.
+2026-06-17 06:24:12,084 [INFO] Configuration updated from backend.
+2026-06-17 06:24:24,117 [INFO] Configuration updated from backend.
+2026-06-17 06:24:36,148 [INFO] Configuration updated from backend.
+2026-06-17 06:24:48,191 [INFO] Configuration updated from backend.
+2026-06-17 06:25:00,236 [INFO] Configuration updated from backend.
+2026-06-17 06:25:12,279 [INFO] Configuration updated from backend.
+2026-06-17 06:25:24,338 [INFO] Configuration updated from backend.
+2026-06-17 06:25:36,365 [INFO] Configuration updated from backend.
+2026-06-17 06:25:48,458 [INFO] Configuration updated from backend.
+2026-06-17 06:26:00,492 [INFO] Configuration updated from backend.
+2026-06-17 06:26:12,541 [INFO] Configuration updated from backend.
+2026-06-17 06:26:24,576 [INFO] Configuration updated from backend.
+2026-06-17 06:26:36,603 [INFO] Configuration updated from backend.
+2026-06-17 06:26:48,636 [INFO] Configuration updated from backend.
+2026-06-17 06:26:53,705 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T06:26:53.705884"}
+2026-06-17 06:26:55,769 [INFO] Alert successfully sent to backend.
+2026-06-17 06:27:00,676 [INFO] Configuration updated from backend.
+2026-06-17 06:27:12,721 [INFO] Configuration updated from backend.
+2026-06-17 06:27:24,747 [INFO] Configuration updated from backend.
+2026-06-17 06:27:36,771 [INFO] Configuration updated from backend.
+2026-06-17 06:27:48,799 [INFO] Configuration updated from backend.
+2026-06-17 06:28:00,859 [INFO] Configuration updated from backend.
+2026-06-17 06:28:12,889 [INFO] Configuration updated from backend.
+2026-06-17 06:28:24,914 [INFO] Configuration updated from backend.
+2026-06-17 06:28:36,971 [INFO] Configuration updated from backend.
+2026-06-17 06:28:48,999 [INFO] Configuration updated from backend.
+2026-06-17 06:29:01,035 [INFO] Configuration updated from backend.
+2026-06-17 06:29:13,069 [INFO] Configuration updated from backend.
+2026-06-17 06:29:25,120 [INFO] Configuration updated from backend.
+2026-06-17 06:29:37,153 [INFO] Configuration updated from backend.
+2026-06-17 06:29:49,181 [INFO] Configuration updated from backend.
+2026-06-17 06:30:01,227 [INFO] Configuration updated from backend.
+2026-06-17 06:30:13,263 [INFO] Configuration updated from backend.
+2026-06-17 06:30:25,297 [INFO] Configuration updated from backend.
+2026-06-17 06:30:37,332 [INFO] Configuration updated from backend.
+2026-06-17 06:30:49,384 [INFO] Configuration updated from backend.
+2026-06-17 06:31:01,431 [INFO] Configuration updated from backend.
+2026-06-17 06:31:13,463 [INFO] Configuration updated from backend.
+2026-06-17 06:31:25,510 [INFO] Configuration updated from backend.
+2026-06-17 06:31:37,569 [INFO] Configuration updated from backend.
+2026-06-17 06:31:49,600 [INFO] Configuration updated from backend.
+2026-06-17 06:32:01,668 [INFO] Configuration updated from backend.
+2026-06-17 06:32:13,730 [INFO] Configuration updated from backend.
+2026-06-17 06:32:25,762 [INFO] Configuration updated from backend.
+2026-06-17 06:32:40,098 [INFO] Configuration updated from backend.
+2026-06-17 06:32:52,126 [INFO] Configuration updated from backend.
+2026-06-17 06:33:04,145 [INFO] Configuration updated from backend.
+2026-06-17 06:33:07,618 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T06:33:07.618797"}
+2026-06-17 06:33:09,665 [INFO] Alert successfully sent to backend.
+2026-06-17 06:33:16,181 [INFO] Configuration updated from backend.
+2026-06-17 06:33:28,209 [INFO] Configuration updated from backend.
+2026-06-17 06:33:40,233 [INFO] Configuration updated from backend.
+2026-06-17 06:33:52,286 [INFO] Configuration updated from backend.
+2026-06-17 06:34:04,333 [INFO] Configuration updated from backend.
+2026-06-17 06:34:16,365 [INFO] Configuration updated from backend.
+2026-06-17 06:34:28,396 [INFO] Configuration updated from backend.
+2026-06-17 06:34:40,430 [INFO] Configuration updated from backend.
+2026-06-17 06:34:52,474 [INFO] Configuration updated from backend.
+2026-06-17 06:35:04,513 [INFO] Configuration updated from backend.
+2026-06-17 06:35:16,570 [INFO] Configuration updated from backend.
+2026-06-17 06:35:28,629 [INFO] Configuration updated from backend.
+2026-06-17 06:35:40,686 [INFO] Configuration updated from backend.
+2026-06-17 06:35:52,725 [INFO] Configuration updated from backend.
+2026-06-17 06:36:04,767 [INFO] Configuration updated from backend.
+2026-06-17 06:36:16,823 [INFO] Configuration updated from backend.
+2026-06-17 06:36:28,872 [INFO] Configuration updated from backend.
+2026-06-17 06:36:40,950 [INFO] Configuration updated from backend.
+2026-06-17 06:36:52,991 [INFO] Configuration updated from backend.
+2026-06-17 06:37:05,043 [INFO] Configuration updated from backend.
+2026-06-17 06:37:17,083 [INFO] Configuration updated from backend.
+2026-06-17 06:37:29,130 [INFO] Configuration updated from backend.
+2026-06-17 06:37:41,191 [INFO] Configuration updated from backend.
+2026-06-17 06:37:53,258 [INFO] Configuration updated from backend.
+2026-06-17 06:38:05,305 [INFO] Configuration updated from backend.
+2026-06-17 06:38:17,331 [INFO] Configuration updated from backend.
+2026-06-17 06:38:29,388 [INFO] Configuration updated from backend.
+2026-06-17 06:38:41,457 [INFO] Configuration updated from backend.
+2026-06-17 06:38:53,491 [INFO] Configuration updated from backend.
+2026-06-17 06:39:05,542 [INFO] Configuration updated from backend.
+2026-06-17 06:39:17,600 [INFO] Configuration updated from backend.
+2026-06-17 06:39:29,633 [INFO] Configuration updated from backend.
+2026-06-17 06:39:41,679 [INFO] Configuration updated from backend.
+2026-06-17 06:39:53,716 [INFO] Configuration updated from backend.
+2026-06-17 06:40:05,756 [INFO] Configuration updated from backend.
+2026-06-17 06:40:17,814 [INFO] Configuration updated from backend.
+2026-06-17 06:40:29,887 [INFO] Configuration updated from backend.
+2026-06-17 06:40:41,921 [INFO] Configuration updated from backend.
+2026-06-17 06:40:53,958 [INFO] Configuration updated from backend.
+2026-06-17 06:41:05,991 [INFO] Configuration updated from backend.
+2026-06-17 06:41:18,056 [INFO] Configuration updated from backend.
+2026-06-17 06:41:30,101 [INFO] Configuration updated from backend.
+2026-06-17 06:41:42,145 [INFO] Configuration updated from backend.
+2026-06-17 06:41:54,171 [INFO] Configuration updated from backend.
+2026-06-17 06:42:06,210 [INFO] Configuration updated from backend.
+2026-06-17 06:42:18,268 [INFO] Configuration updated from backend.
+2026-06-17 06:42:30,323 [INFO] Configuration updated from backend.
+2026-06-17 06:42:42,375 [INFO] Configuration updated from backend.
+2026-06-17 06:42:54,413 [INFO] Configuration updated from backend.
+2026-06-17 06:43:06,457 [INFO] Configuration updated from backend.
+2026-06-17 06:43:18,513 [INFO] Configuration updated from backend.
+2026-06-17 06:43:30,547 [INFO] Configuration updated from backend.
+2026-06-17 06:43:42,593 [INFO] Configuration updated from backend.
+2026-06-17 06:43:54,640 [INFO] Configuration updated from backend.
+2026-06-17 06:44:06,685 [INFO] Configuration updated from backend.
+2026-06-17 06:44:18,727 [INFO] Configuration updated from backend.
+2026-06-17 06:44:30,776 [INFO] Configuration updated from backend.
+2026-06-17 06:44:42,832 [INFO] Configuration updated from backend.
+2026-06-17 06:44:54,885 [INFO] Configuration updated from backend.
+2026-06-17 06:45:06,922 [INFO] Configuration updated from backend.
+2026-06-17 06:45:18,949 [INFO] Configuration updated from backend.
+2026-06-17 06:45:30,983 [INFO] Configuration updated from backend.
+2026-06-17 06:45:43,024 [INFO] Configuration updated from backend.
+2026-06-17 06:45:50,396 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T06:45:50.396081"}
+2026-06-17 06:45:52,437 [INFO] Alert successfully sent to backend.
+2026-06-17 06:45:55,057 [INFO] Configuration updated from backend.
+2026-06-17 06:46:07,096 [INFO] Configuration updated from backend.
+2026-06-17 06:46:19,134 [INFO] Configuration updated from backend.
+2026-06-17 06:46:31,195 [INFO] Configuration updated from backend.
+2026-06-17 06:46:43,233 [INFO] Configuration updated from backend.
+2026-06-17 06:46:55,265 [INFO] Configuration updated from backend.
+2026-06-17 06:47:07,303 [INFO] Configuration updated from backend.
+2026-06-17 06:47:19,355 [INFO] Configuration updated from backend.
+2026-06-17 06:47:31,394 [INFO] Configuration updated from backend.
+2026-06-17 06:47:43,443 [INFO] Configuration updated from backend.
+2026-06-17 06:47:55,489 [INFO] Configuration updated from backend.
+2026-06-17 06:48:07,562 [INFO] Configuration updated from backend.
+2026-06-17 06:48:19,581 [INFO] Configuration updated from backend.
+2026-06-17 06:48:31,620 [INFO] Configuration updated from backend.
+2026-06-17 06:48:43,687 [INFO] Configuration updated from backend.
+2026-06-17 06:48:55,716 [INFO] Configuration updated from backend.
+2026-06-17 06:49:07,768 [INFO] Configuration updated from backend.
+2026-06-17 06:49:19,799 [INFO] Configuration updated from backend.
+2026-06-17 06:49:31,831 [INFO] Configuration updated from backend.
+2026-06-17 06:49:43,859 [INFO] Configuration updated from backend.
+2026-06-17 06:49:55,900 [INFO] Configuration updated from backend.
+2026-06-17 06:50:07,924 [INFO] Configuration updated from backend.
+2026-06-17 06:50:19,965 [INFO] Configuration updated from backend.
+2026-06-17 06:50:31,983 [INFO] Configuration updated from backend.
+2026-06-17 06:50:44,032 [INFO] Configuration updated from backend.
+2026-06-17 06:50:56,076 [INFO] Configuration updated from backend.
+2026-06-17 06:51:08,144 [INFO] Configuration updated from backend.
+2026-06-17 06:51:20,215 [INFO] Configuration updated from backend.
+2026-06-17 06:51:32,267 [INFO] Configuration updated from backend.
+2026-06-17 06:51:35,843 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T06:51:35.843543"}
+2026-06-17 06:51:37,916 [INFO] Alert successfully sent to backend.
+2026-06-17 06:51:44,321 [INFO] Configuration updated from backend.
+2026-06-17 06:51:56,376 [INFO] Configuration updated from backend.
+2026-06-17 06:52:08,415 [INFO] Configuration updated from backend.
+2026-06-17 06:52:20,478 [INFO] Configuration updated from backend.
+2026-06-17 06:52:32,528 [INFO] Configuration updated from backend.
+2026-06-17 06:52:44,587 [INFO] Configuration updated from backend.
+2026-06-17 06:52:56,642 [INFO] Configuration updated from backend.
+2026-06-17 06:53:08,679 [INFO] Configuration updated from backend.
+2026-06-17 06:53:20,739 [INFO] Configuration updated from backend.
+2026-06-17 06:53:26,542 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T06:53:26.542517"}
+2026-06-17 06:53:28,608 [INFO] Alert successfully sent to backend.
+2026-06-17 06:53:32,786 [INFO] Configuration updated from backend.
+2026-06-17 06:53:44,838 [INFO] Configuration updated from backend.
+2026-06-17 06:53:56,893 [INFO] Configuration updated from backend.
+2026-06-17 06:54:08,940 [INFO] Configuration updated from backend.
+2026-06-17 06:54:20,984 [INFO] Configuration updated from backend.
+2026-06-17 06:54:33,031 [INFO] Configuration updated from backend.
+2026-06-17 06:54:50,102 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:55:07,156 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:55:24,193 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:55:41,270 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:55:58,310 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:56:15,363 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:56:32,430 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:56:49,460 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:57:06,501 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:57:23,560 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:57:40,604 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:57:57,642 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:58:14,678 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:58:31,720 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:58:48,773 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:59:05,810 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:59:22,860 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:59:39,923 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 06:59:56,944 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:00:14,004 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:00:31,049 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:00:48,106 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:01:05,171 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:01:22,231 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:01:39,281 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:01:56,330 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:02:13,387 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:02:30,434 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:02:47,477 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:03:04,516 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:03:21,562 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:03:38,630 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:03:55,670 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)
+2026-06-17 07:04:07,517 [INFO] Shutting down...
+2026-06-17 07:04:07,517 [INFO] Agent stopped.
+2026-06-17 15:52:35,057 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 15:52:35,059 [INFO] Worker thread started.
+2026-06-17 15:52:35,059 [INFO] Config poller thread started.
+2026-06-17 15:52:35,059 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 15:52:35,059 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 15:52:39,134 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 15:52:53,232 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 15:53:07,339 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 15:53:21,394 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 15:53:33,534 [INFO] Configuration updated from backend.
+2026-06-17 15:53:45,587 [INFO] Configuration updated from backend.
+2026-06-17 15:53:57,632 [INFO] Configuration updated from backend.
+2026-06-17 15:54:09,695 [INFO] Configuration updated from backend.
+2026-06-17 15:54:21,734 [INFO] Configuration updated from backend.
+2026-06-17 15:54:33,772 [INFO] Configuration updated from backend.
+2026-06-17 15:54:45,832 [INFO] Configuration updated from backend.
+2026-06-17 15:54:57,858 [INFO] Configuration updated from backend.
+2026-06-17 15:55:09,903 [INFO] Configuration updated from backend.
+2026-06-17 15:55:14,902 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T15:55:14.902534"}
+2026-06-17 15:55:16,985 [INFO] Alert successfully sent to backend.
+2026-06-17 15:55:21,941 [INFO] Configuration updated from backend.
+2026-06-17 15:55:33,993 [INFO] Configuration updated from backend.
+2026-06-17 15:55:46,062 [INFO] Configuration updated from backend.
+2026-06-17 15:55:58,113 [INFO] Configuration updated from backend.
+2026-06-17 15:56:07,810 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T15:56:07.809993"}
+2026-06-17 15:56:09,847 [INFO] Alert successfully sent to backend.
+2026-06-17 15:56:10,162 [INFO] Configuration updated from backend.
+2026-06-17 15:56:22,216 [INFO] Configuration updated from backend.
+2026-06-17 15:56:31,203 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T15:56:31.203537"}
+2026-06-17 15:56:33,271 [INFO] Alert successfully sent to backend.
+2026-06-17 15:56:34,273 [INFO] Configuration updated from backend.
+2026-06-17 15:56:46,328 [INFO] Configuration updated from backend.
+2026-06-17 15:56:58,345 [INFO] Configuration updated from backend.
+2026-06-17 15:57:10,385 [INFO] Configuration updated from backend.
+2026-06-17 15:57:22,444 [INFO] Configuration updated from backend.
+2026-06-17 15:57:34,503 [INFO] Configuration updated from backend.
+2026-06-17 15:57:46,571 [INFO] Configuration updated from backend.
+2026-06-17 15:57:58,617 [INFO] Configuration updated from backend.
+2026-06-17 15:58:09,254 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T15:58:09.254064"}
+2026-06-17 15:58:11,313 [INFO] Alert successfully sent to backend.
+2026-06-17 15:58:11,316 [INFO] Configuration updated from backend.
+2026-06-17 15:58:23,367 [INFO] Configuration updated from backend.
+2026-06-17 15:58:26,430 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T15:58:26.430244"}
+2026-06-17 15:58:28,489 [INFO] Alert successfully sent to backend.
+2026-06-17 15:58:35,399 [INFO] Configuration updated from backend.
+2026-06-17 15:58:47,446 [INFO] Configuration updated from backend.
+2026-06-17 15:58:59,489 [INFO] Configuration updated from backend.
+2026-06-17 15:59:11,545 [INFO] Configuration updated from backend.
+2026-06-17 15:59:23,615 [INFO] Configuration updated from backend.
+2026-06-17 15:59:35,682 [INFO] Configuration updated from backend.
+2026-06-17 15:59:47,731 [INFO] Configuration updated from backend.
+2026-06-17 15:59:59,785 [INFO] Configuration updated from backend.
+2026-06-17 16:00:11,839 [INFO] Configuration updated from backend.
+2026-06-17 16:00:23,881 [INFO] Configuration updated from backend.
+2026-06-17 16:00:35,925 [INFO] Configuration updated from backend.
+2026-06-17 16:00:47,965 [INFO] Configuration updated from backend.
+2026-06-17 16:00:59,999 [INFO] Configuration updated from backend.
+2026-06-17 16:01:12,071 [INFO] Configuration updated from backend.
+2026-06-17 16:01:24,123 [INFO] Configuration updated from backend.
+2026-06-17 16:01:36,184 [INFO] Configuration updated from backend.
+2026-06-17 16:01:48,256 [INFO] Configuration updated from backend.
+2026-06-17 16:02:00,286 [INFO] Configuration updated from backend.
+2026-06-17 16:02:12,333 [INFO] Configuration updated from backend.
+2026-06-17 16:02:24,409 [INFO] Configuration updated from backend.
+2026-06-17 16:02:37,242 [INFO] Configuration updated from backend.
+2026-06-17 16:02:49,297 [INFO] Configuration updated from backend.
+2026-06-17 16:03:01,318 [INFO] Configuration updated from backend.
+2026-06-17 16:03:13,348 [INFO] Configuration updated from backend.
+2026-06-17 16:03:25,393 [INFO] Configuration updated from backend.
+2026-06-17 16:03:32,955 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:03:32.955196"}
+2026-06-17 16:03:35,010 [INFO] Alert successfully sent to backend.
+2026-06-17 16:03:37,433 [INFO] Configuration updated from backend.
+2026-06-17 16:03:43,862 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:03:43.862388"}
+2026-06-17 16:03:45,920 [INFO] Alert successfully sent to backend.
+2026-06-17 16:03:49,469 [INFO] Configuration updated from backend.
+2026-06-17 16:04:01,517 [INFO] Configuration updated from backend.
+2026-06-17 16:04:02,367 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:04:02.367581"}
+2026-06-17 16:04:04,444 [INFO] Alert successfully sent to backend.
+2026-06-17 16:04:13,425 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:04:13.424965"}
+2026-06-17 16:04:15,488 [INFO] Alert successfully sent to backend.
+2026-06-17 16:04:15,489 [INFO] Configuration updated from backend.
+2026-06-17 16:04:27,533 [INFO] Configuration updated from backend.
+2026-06-17 16:04:39,578 [INFO] Configuration updated from backend.
+2026-06-17 16:04:51,622 [INFO] Configuration updated from backend.
+2026-06-17 16:05:03,687 [INFO] Configuration updated from backend.
+2026-06-17 16:05:15,713 [INFO] Configuration updated from backend.
+2026-06-17 16:05:27,736 [INFO] Configuration updated from backend.
+2026-06-17 16:05:39,789 [INFO] Configuration updated from backend.
+2026-06-17 16:05:51,838 [INFO] Configuration updated from backend.
+2026-06-17 16:06:03,920 [INFO] Configuration updated from backend.
+2026-06-17 16:06:15,982 [INFO] Configuration updated from backend.
+2026-06-17 16:06:28,045 [INFO] Configuration updated from backend.
+2026-06-17 16:06:40,092 [INFO] Configuration updated from backend.
+2026-06-17 16:06:52,125 [INFO] Configuration updated from backend.
+2026-06-17 16:07:04,163 [INFO] Configuration updated from backend.
+2026-06-17 16:07:16,207 [INFO] Configuration updated from backend.
+2026-06-17 16:07:23,414 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:07:23.414694"}
+2026-06-17 16:07:25,477 [INFO] Alert successfully sent to backend.
+2026-06-17 16:07:28,264 [INFO] Configuration updated from backend.
+2026-06-17 16:07:34,798 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:07:34.798146"}
+2026-06-17 16:07:36,825 [INFO] Alert successfully sent to backend.
+2026-06-17 16:07:40,318 [INFO] Configuration updated from backend.
+2026-06-17 16:07:47,110 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:07:47.110529"}
+2026-06-17 16:07:49,174 [INFO] Alert successfully sent to backend.
+2026-06-17 16:07:52,400 [INFO] Configuration updated from backend.
+2026-06-17 16:08:04,449 [INFO] Configuration updated from backend.
+2026-06-17 16:08:16,475 [INFO] Configuration updated from backend.
+2026-06-17 16:08:28,554 [INFO] Configuration updated from backend.
+2026-06-17 16:08:40,601 [INFO] Configuration updated from backend.
+2026-06-17 16:08:52,644 [INFO] Configuration updated from backend.
+2026-06-17 16:09:04,701 [INFO] Configuration updated from backend.
+2026-06-17 16:09:16,753 [INFO] Configuration updated from backend.
+2026-06-17 16:09:28,841 [INFO] Configuration updated from backend.
+2026-06-17 16:09:40,893 [INFO] Configuration updated from backend.
+2026-06-17 16:09:52,946 [INFO] Configuration updated from backend.
+2026-06-17 16:10:04,993 [INFO] Configuration updated from backend.
+2026-06-17 16:10:17,546 [INFO] Configuration updated from backend.
+2026-06-17 16:10:28,530 [INFO] Shutting down...
+2026-06-17 16:10:28,530 [INFO] Agent stopped.
+2026-06-17 16:11:18,058 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 16:11:18,059 [INFO] Worker thread started.
+2026-06-17 16:11:18,060 [INFO] Config poller thread started.
+2026-06-17 16:11:18,060 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 16:11:18,060 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 16:11:20,128 [INFO] Configuration updated from backend.
+2026-06-17 16:11:29,014 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.20", "attack_type": "SYN Flood Detected", "timestamp": "2026-06-17T16:11:29.014679"}
+2026-06-17 16:11:31,039 [INFO] Alert successfully sent to backend.
+2026-06-17 16:11:31,052 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.30", "attack_type": "ICMP Flood Detected", "timestamp": "2026-06-17T16:11:31.052262"}
+2026-06-17 16:11:33,107 [INFO] Alert successfully sent to backend.
+2026-06-17 16:11:33,108 [INFO] Configuration updated from backend.
+2026-06-17 16:11:33,113 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.40", "attack_type": "SYN Flood Detected", "timestamp": "2026-06-17T16:11:33.113677"}
+2026-06-17 16:11:35,166 [INFO] Alert successfully sent to backend.
+2026-06-17 16:11:35,237 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:11:35.237405"}
+2026-06-17 16:11:37,274 [INFO] Alert successfully sent to backend.
+2026-06-17 16:11:45,154 [INFO] Configuration updated from backend.
+2026-06-17 16:11:57,216 [INFO] Configuration updated from backend.
+2026-06-17 16:12:09,287 [INFO] Configuration updated from backend.
+2026-06-17 16:12:21,315 [INFO] Configuration updated from backend.
+2026-06-17 16:12:33,367 [INFO] Configuration updated from backend.
+2026-06-17 16:12:45,412 [INFO] Configuration updated from backend.
+2026-06-17 16:12:57,466 [INFO] Configuration updated from backend.
+2026-06-17 16:13:09,527 [INFO] Configuration updated from backend.
+2026-06-17 16:13:21,579 [INFO] Configuration updated from backend.
+2026-06-17 16:13:33,622 [INFO] Configuration updated from backend.
+2026-06-17 16:13:45,668 [INFO] Configuration updated from backend.
+2026-06-17 16:13:57,711 [INFO] Configuration updated from backend.
+2026-06-17 16:14:09,762 [INFO] Configuration updated from backend.
+2026-06-17 16:14:21,831 [INFO] Configuration updated from backend.
+2026-06-17 16:14:33,895 [INFO] Configuration updated from backend.
+2026-06-17 16:14:45,941 [INFO] Configuration updated from backend.
+2026-06-17 16:14:58,019 [INFO] Configuration updated from backend.
+2026-06-17 16:15:10,063 [INFO] Configuration updated from backend.
+2026-06-17 16:15:22,113 [INFO] Configuration updated from backend.
+2026-06-17 16:15:34,139 [INFO] Configuration updated from backend.
+2026-06-17 16:15:46,181 [INFO] Configuration updated from backend.
+2026-06-17 16:15:58,224 [INFO] Configuration updated from backend.
+2026-06-17 16:15:59,223 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:15:59.223889"}
+2026-06-17 16:16:01,262 [INFO] Alert successfully sent to backend.
+2026-06-17 16:16:10,266 [INFO] Configuration updated from backend.
+2026-06-17 16:16:17,234 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:16:17.234098"}
+2026-06-17 16:16:19,269 [INFO] Alert successfully sent to backend.
+2026-06-17 16:16:22,326 [INFO] Configuration updated from backend.
+2026-06-17 16:16:34,352 [INFO] Configuration updated from backend.
+2026-06-17 16:16:46,383 [INFO] Configuration updated from backend.
+2026-06-17 16:16:50,267 [INFO] Shutting down...
+2026-06-17 16:16:50,267 [INFO] Agent stopped.
+2026-06-17 16:16:54,027 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 16:16:54,028 [INFO] Worker thread started.
+2026-06-17 16:16:54,028 [INFO] Config poller thread started.
+2026-06-17 16:16:54,029 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 16:16:54,029 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 16:16:56,085 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:17:00,661 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:17:00.661411"}
+2026-06-17 16:17:02,717 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:08,147 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:17:08,270 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:17:08.270252"}
+2026-06-17 16:17:10,332 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:10,336 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T16:17:10.336217"}
+2026-06-17 16:17:12,384 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:12,388 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:17:12.388236"}
+2026-06-17 16:17:14,440 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:14,445 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T16:17:14.445680"}
+2026-06-17 16:17:16,528 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:16,534 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "ICMP Flood", "timestamp": "2026-06-17T16:17:16.534140"}
+2026-06-17 16:17:18,585 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:18,603 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T16:17:18.603034"}
+2026-06-17 16:17:20,657 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:20,662 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:17:20,668 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T16:17:20.668662"}
+2026-06-17 16:17:22,710 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:22,713 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:17:22.713131"}
+2026-06-17 16:17:24,776 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:24,785 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T16:17:24.785766"}
+2026-06-17 16:17:26,814 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:26,828 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T16:17:26.828756"}
+2026-06-17 16:17:28,887 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:28,894 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:17:28.894708"}
+2026-06-17 16:17:30,955 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:30,978 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:17:30.978496"}
+2026-06-17 16:17:33,036 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:33,040 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:17:33,040 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:17:33.040788"}
+2026-06-17 16:17:35,072 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:43,515 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:17:43.515371"}
+2026-06-17 16:17:45,587 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:45,589 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:17:55,512 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:17:55.512736"}
+2026-06-17 16:17:57,575 [INFO] Alert successfully sent to backend.
+2026-06-17 16:17:57,655 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:18:08,219 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:18:08.219304"}
+2026-06-17 16:18:10,283 [INFO] Alert successfully sent to backend.
+2026-06-17 16:18:10,288 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:18:20,185 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:18:20.185873"}
+2026-06-17 16:18:22,231 [INFO] Alert successfully sent to backend.
+2026-06-17 16:18:22,357 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:18:32,226 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:18:32.226045"}
+2026-06-17 16:18:34,270 [INFO] Alert successfully sent to backend.
+2026-06-17 16:18:34,416 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:18:44,229 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:18:44.229050"}
+2026-06-17 16:18:46,285 [INFO] Alert successfully sent to backend.
+2026-06-17 16:18:46,462 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:18:56,224 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:18:56.224190"}
+2026-06-17 16:18:58,266 [INFO] Alert successfully sent to backend.
+2026-06-17 16:18:58,517 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:19:08,221 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:19:08.221087"}
+2026-06-17 16:19:10,277 [INFO] Alert successfully sent to backend.
+2026-06-17 16:19:10,544 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:19:20,219 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:19:20.219228"}
+2026-06-17 16:19:22,276 [INFO] Alert successfully sent to backend.
+2026-06-17 16:19:22,591 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:19:32,228 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:19:32.228608"}
+2026-06-17 16:19:34,271 [INFO] Alert successfully sent to backend.
+2026-06-17 16:19:34,635 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:19:44,225 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:19:44.225408"}
+2026-06-17 16:19:46,270 [INFO] Alert successfully sent to backend.
+2026-06-17 16:19:46,663 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:19:56,218 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:19:56.218007"}
+2026-06-17 16:19:58,288 [INFO] Alert successfully sent to backend.
+2026-06-17 16:19:58,710 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:20:08,220 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:20:08.220666"}
+2026-06-17 16:20:10,264 [INFO] Alert successfully sent to backend.
+2026-06-17 16:20:10,733 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:20:20,216 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:20:20.216284"}
+2026-06-17 16:20:22,276 [INFO] Alert successfully sent to backend.
+2026-06-17 16:20:22,769 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:20:32,220 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:20:32.220680"}
+2026-06-17 16:20:34,253 [INFO] Alert successfully sent to backend.
+2026-06-17 16:20:34,791 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:20:44,228 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:20:44.228353"}
+2026-06-17 16:20:46,300 [INFO] Alert successfully sent to backend.
+2026-06-17 16:20:46,862 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:20:56,026 [INFO] Shutting down...
+2026-06-17 16:20:56,027 [INFO] Agent stopped.
+2026-06-17 16:27:53,525 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 16:27:53,526 [INFO] Worker thread started.
+2026-06-17 16:27:53,527 [INFO] Config poller thread started.
+2026-06-17 16:27:53,527 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 16:27:53,527 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 16:27:55,556 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:28:07,599 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:28:12,286 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:28:12.286199"}
+2026-06-17 16:28:14,320 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:14,328 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T16:28:14.328394"}
+2026-06-17 16:28:16,361 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:16,367 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T16:28:16.367532"}
+2026-06-17 16:28:18,420 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:18,422 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "ICMP Flood", "timestamp": "2026-06-17T16:28:18.422939"}
+2026-06-17 16:28:20,467 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:20,474 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:28:20,478 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T16:28:20.478658"}
+2026-06-17 16:28:22,514 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:22,517 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:28:22.517642"}
+2026-06-17 16:28:24,567 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:24,572 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T16:28:24.571977"}
+2026-06-17 16:28:26,619 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:26,624 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T16:28:26.624113"}
+2026-06-17 16:28:28,646 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:28,657 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T16:28:28.657838"}
+2026-06-17 16:28:30,698 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:30,705 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:28:30.705254"}
+2026-06-17 16:28:32,740 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:32,744 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:28:39,872 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:28:39.872116"}
+2026-06-17 16:28:41,939 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:44,793 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:28:54,626 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:28:54.626280"}
+2026-06-17 16:28:56,708 [INFO] Alert successfully sent to backend.
+2026-06-17 16:28:56,823 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:29:08,861 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:29:16,222 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:29:16.222336"}
+2026-06-17 16:29:18,266 [INFO] Alert successfully sent to backend.
+2026-06-17 16:29:20,895 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:29:32,951 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:29:37,232 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:29:37.232181"}
+2026-06-17 16:29:39,247 [INFO] Alert successfully sent to backend.
+2026-06-17 16:29:44,972 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:29:56,998 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:29:58,228 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:29:58.228598"}
+2026-06-17 16:30:00,278 [INFO] Alert successfully sent to backend.
+2026-06-17 16:30:09,048 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:30:21,114 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:30:21.114602"}
+2026-06-17 16:30:23,147 [INFO] Alert successfully sent to backend.
+2026-06-17 16:30:23,153 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:30:35,179 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:30:43,218 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:30:43.218499"}
+2026-06-17 16:30:45,246 [INFO] Alert successfully sent to backend.
+2026-06-17 16:30:47,204 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:30:59,229 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:31:04,222 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:31:04.222755"}
+2026-06-17 16:31:06,268 [INFO] Alert successfully sent to backend.
+2026-06-17 16:31:11,263 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:31:23,299 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:31:33,219 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:31:33.219462"}
+2026-06-17 16:31:35,246 [INFO] Alert successfully sent to backend.
+2026-06-17 16:31:35,338 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:31:47,407 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:31:51,225 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:31:51.225212"}
+2026-06-17 16:31:53,162 [INFO] Shutting down...
+2026-06-17 16:31:53,162 [INFO] Agent stopped.
+2026-06-17 16:32:57,889 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 16:32:57,890 [INFO] Worker thread started.
+2026-06-17 16:32:57,890 [INFO] Config poller thread started.
+2026-06-17 16:32:57,891 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 16:32:57,891 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 16:32:59,926 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:33:11,962 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:33:23,998 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:33:36,060 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:33:36,619 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:33:36.619309"}
+2026-06-17 16:33:38,692 [INFO] Alert successfully sent to backend.
+2026-06-17 16:33:48,113 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:33:53,631 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:33:53.631669"}
+2026-06-17 16:33:55,693 [INFO] Alert successfully sent to backend.
+2026-06-17 16:33:55,700 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T16:33:55.700073"}
+2026-06-17 16:33:57,739 [INFO] Alert successfully sent to backend.
+2026-06-17 16:33:57,744 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:33:57.744139"}
+2026-06-17 16:33:59,821 [INFO] Alert successfully sent to backend.
+2026-06-17 16:33:59,828 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T16:33:59.828417"}
+2026-06-17 16:34:01,874 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:01,877 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:34:01,879 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "ICMP Flood", "timestamp": "2026-06-17T16:34:01.879201"}
+2026-06-17 16:34:03,946 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:03,955 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T16:34:03.955268"}
+2026-06-17 16:34:06,022 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:06,030 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T16:34:06.030942"}
+2026-06-17 16:34:08,088 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:08,099 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T16:34:08.099784"}
+2026-06-17 16:34:10,162 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:10,169 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T16:34:10.168953"}
+2026-06-17 16:34:12,197 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:12,204 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:34:12.204661"}
+2026-06-17 16:34:14,257 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:14,261 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:34:14,264 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:34:14.264136"}
+2026-06-17 16:34:16,319 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:24,624 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:34:24.624270"}
+2026-06-17 16:34:26,676 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:26,677 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:34:38,729 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:34:45,628 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:34:45.628130"}
+2026-06-17 16:34:47,698 [INFO] Alert successfully sent to backend.
+2026-06-17 16:34:50,795 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:35:02,823 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:35:06,623 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:35:06.623514"}
+2026-06-17 16:35:08,703 [INFO] Alert successfully sent to backend.
+2026-06-17 16:35:14,882 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:35:26,940 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:35:27,622 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:35:27.622781"}
+2026-06-17 16:35:29,661 [INFO] Alert successfully sent to backend.
+2026-06-17 16:35:39,007 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:35:48,626 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:35:48.626000"}
+2026-06-17 16:35:50,679 [INFO] Alert successfully sent to backend.
+2026-06-17 16:35:51,059 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:36:03,082 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:36:13,223 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:36:13.222991"}
+2026-06-17 16:36:15,264 [INFO] Alert successfully sent to backend.
+2026-06-17 16:36:15,269 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:36:27,308 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:36:34,209 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:36:34.209709"}
+2026-06-17 16:36:36,255 [INFO] Alert successfully sent to backend.
+2026-06-17 16:36:39,342 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:36:51,382 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:37:03,413 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "127.0.0.1", "attack_type": "DDoS Attempt", "timestamp": "2026-06-17T16:37:03.413605"}
+2026-06-17 16:37:05,447 [INFO] Alert successfully sent to backend.
+2026-06-17 16:37:05,449 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:37:17,488 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:37:29,523 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:37:41,569 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:37:53,643 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:38:05,673 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:38:17,714 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:38:29,760 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:38:32,160 [INFO] Shutting down...
+2026-06-17 16:38:32,160 [INFO] Agent stopped.
+2026-06-17 16:38:42,581 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 16:38:42,582 [INFO] Worker thread started.
+2026-06-17 16:38:42,583 [INFO] Config poller thread started.
+2026-06-17 16:38:42,583 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 16:38:42,583 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 16:38:46,653 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:00,771 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:14,883 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:28,987 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:32,414 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.1", "attack_type": "Port Scan", "timestamp": "2026-06-17T16:39:32.414321"}
+2026-06-17 16:39:36,513 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:36,520 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:39:36.520039"}
+2026-06-17 16:39:40,608 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:40,611 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T16:39:40.611298"}
+2026-06-17 16:39:43,082 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:44,719 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:44,722 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T16:39:44.722089"}
+2026-06-17 16:39:48,818 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:48,819 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "ICMP Flood", "timestamp": "2026-06-17T16:39:48.819382"}
+2026-06-17 16:39:52,920 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:52,925 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T16:39:52.925756"}
+2026-06-17 16:39:57,023 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:39:57,027 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T16:39:57.027890"}
+2026-06-17 16:39:57,177 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:40:01,136 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:40:01,141 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T16:40:01.141388"}
+2026-06-17 16:40:05,230 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:40:05,234 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T16:40:05.234423"}
+2026-06-17 16:40:09,337 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:40:09,343 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:40:09.342946"}
+2026-06-17 16:40:11,265 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:40:13,416 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:40:25,366 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:40:39,426 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:40:53,483 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:41:07,543 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:41:21,584 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:41:35,647 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:41:49,704 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:42:03,775 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:42:17,827 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:42:31,895 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:42:45,975 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:43:00,027 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:43:14,079 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:43:28,153 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:43:42,227 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:43:56,308 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:44:10,345 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 16:44:22,394 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:44:34,454 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:44:35,616 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.1", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:44:35.616729"}
+2026-06-17 16:44:37,650 [INFO] Alert successfully sent to backend.
+2026-06-17 16:44:37,654 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:44:37.654481"}
+2026-06-17 16:44:39,701 [INFO] Alert successfully sent to backend.
+2026-06-17 16:44:39,706 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T16:44:39.706160"}
+2026-06-17 16:44:41,750 [INFO] Alert successfully sent to backend.
+2026-06-17 16:44:41,755 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T16:44:41.755619"}
+2026-06-17 16:44:43,817 [INFO] Alert successfully sent to backend.
+2026-06-17 16:44:43,822 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T16:44:43.822370"}
+2026-06-17 16:44:45,913 [INFO] Alert successfully sent to backend.
+2026-06-17 16:44:45,923 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T16:44:45.923108"}
+2026-06-17 16:44:47,973 [INFO] Alert successfully sent to backend.
+2026-06-17 16:44:47,978 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:44:47,982 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T16:44:47.982237"}
+2026-06-17 16:44:50,048 [INFO] Alert successfully sent to backend.
+2026-06-17 16:44:51,698 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T16:44:51.698134"}
+2026-06-17 16:44:53,736 [INFO] Alert successfully sent to backend.
+2026-06-17 16:44:53,740 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:44:53.740739"}
+2026-06-17 16:44:55,787 [INFO] Alert successfully sent to backend.
+2026-06-17 16:45:00,014 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:45:12,065 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:45:24,114 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:45:36,141 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:45:48,200 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:46:00,234 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:46:12,253 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:46:24,310 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:46:36,353 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:46:48,420 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:47:00,474 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:47:12,511 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:47:24,550 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:47:36,582 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:47:48,615 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:48:00,651 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:48:12,688 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:48:24,714 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:48:36,760 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:48:40,581 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.1", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:48:40.581655"}
+2026-06-17 16:48:42,642 [INFO] Alert successfully sent to backend.
+2026-06-17 16:48:42,644 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:48:42.644817"}
+2026-06-17 16:48:44,687 [INFO] Alert successfully sent to backend.
+2026-06-17 16:48:44,695 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T16:48:44.695382"}
+2026-06-17 16:48:46,756 [INFO] Alert successfully sent to backend.
+2026-06-17 16:48:46,761 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T16:48:46.760993"}
+2026-06-17 16:48:48,802 [INFO] Alert successfully sent to backend.
+2026-06-17 16:48:48,807 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T16:48:48.806978"}
+2026-06-17 16:48:50,853 [INFO] Alert successfully sent to backend.
+2026-06-17 16:48:50,854 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:48:50,858 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T16:48:50.858362"}
+2026-06-17 16:48:52,914 [INFO] Alert successfully sent to backend.
+2026-06-17 16:48:52,922 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T16:48:52.922402"}
+2026-06-17 16:48:54,945 [INFO] Alert successfully sent to backend.
+2026-06-17 16:48:56,660 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T16:48:56.660197"}
+2026-06-17 16:48:58,700 [INFO] Alert successfully sent to backend.
+2026-06-17 16:48:58,705 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:48:58.705233"}
+2026-06-17 16:49:00,764 [INFO] Alert successfully sent to backend.
+2026-06-17 16:49:02,916 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:49:14,989 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:49:27,034 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:49:39,061 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:49:51,114 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:50:03,187 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:50:15,225 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:50:27,268 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:50:39,307 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:50:51,340 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:51:03,382 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:51:15,424 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:51:27,480 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:51:39,527 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:51:51,589 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:52:03,626 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:52:15,682 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:52:27,731 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:52:39,758 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:52:51,809 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:53:03,845 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:53:15,881 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:53:27,932 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:53:39,976 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:53:52,004 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:54:04,039 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:54:16,104 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:54:28,143 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:54:40,212 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:54:52,232 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:55:04,265 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:55:16,296 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:55:28,332 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:55:40,371 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:55:42,609 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "UDP Flood", "timestamp": "2026-06-17T16:55:42.608964"}
+2026-06-17 16:55:44,626 [INFO] Alert successfully sent to backend.
+2026-06-17 16:55:52,414 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:56:04,461 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:56:16,521 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:56:28,573 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:56:40,619 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:56:52,659 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:57:04,701 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:57:16,740 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:57:28,761 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:57:33,425 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.1", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:57:33.425701"}
+2026-06-17 16:57:35,486 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:35,490 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:57:35.490386"}
+2026-06-17 16:57:37,517 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:37,524 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T16:57:37.524029"}
+2026-06-17 16:57:39,592 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:39,598 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T16:57:39.598056"}
+2026-06-17 16:57:41,636 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:41,642 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:57:41,646 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T16:57:41.646016"}
+2026-06-17 16:57:43,692 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:43,697 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T16:57:43.697403"}
+2026-06-17 16:57:45,732 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:45,737 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T16:57:45.737008"}
+2026-06-17 16:57:47,789 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:49,508 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T16:57:49.508364"}
+2026-06-17 16:57:51,549 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:51,553 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T16:57:51.553816"}
+2026-06-17 16:57:53,604 [INFO] Alert successfully sent to backend.
+2026-06-17 16:57:53,700 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:58:05,722 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:58:17,770 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:58:29,804 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:58:41,831 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:58:53,865 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:59:05,899 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:59:17,959 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:59:30,000 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:59:42,045 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 16:59:54,079 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:00:06,117 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:00:18,152 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:00:30,197 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:00:42,249 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:00:54,266 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:01:06,323 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:01:18,378 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:01:30,412 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:01:42,454 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:01:54,476 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:02:06,519 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:02:18,566 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:02:30,599 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:02:42,622 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:02:54,675 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:03:06,698 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:03:18,731 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:03:30,780 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:03:42,822 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:03:54,853 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:04:06,874 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:04:18,913 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:04:30,936 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:04:42,997 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:04:55,048 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:05:07,081 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:05:19,120 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:05:31,156 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:05:42,663 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:05:42.663124"}
+2026-06-17 17:05:44,704 [INFO] Alert successfully sent to backend.
+2026-06-17 17:05:44,717 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:05:56,759 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:06:08,799 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:06:20,844 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:06:32,900 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:06:44,935 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:06:56,968 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:07:09,004 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:07:21,056 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:07:33,086 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:07:45,116 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:07:57,148 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:08:09,193 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:08:21,226 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:08:33,271 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:08:45,304 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:08:57,328 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:09:09,355 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:09:21,409 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:09:33,458 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:09:45,486 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:09:57,520 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:10:09,543 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:10:21,582 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:10:33,614 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:10:45,646 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:10:57,734 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:11:09,781 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:11:21,815 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:11:33,855 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:11:45,884 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:11:57,907 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:12:09,938 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:12:22,010 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:12:34,062 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:12:46,089 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:12:58,119 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:13:10,163 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:13:22,213 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:13:34,268 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:13:42,684 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:13:42.684331"}
+2026-06-17 17:13:44,719 [INFO] Alert successfully sent to backend.
+2026-06-17 17:13:46,311 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:13:58,372 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:14:10,429 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:14:22,474 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:14:34,511 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:14:46,543 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:14:58,571 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:15:10,613 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:15:22,661 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:15:34,686 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:15:46,708 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:15:58,764 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:16:10,830 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:16:22,866 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:16:34,893 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:16:46,938 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:16:58,996 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:17:11,040 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:17:23,088 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:17:35,128 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:17:47,162 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:17:59,189 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:18:11,217 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:18:23,251 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:18:35,299 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:18:47,321 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:18:59,353 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:19:11,382 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:19:23,419 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:19:35,448 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:19:47,504 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:19:59,554 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:20:11,609 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:20:23,672 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:20:35,708 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:20:47,776 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:20:59,799 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:21:11,866 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:21:23,923 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:21:35,972 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:21:42,711 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:21:42.711279"}
+2026-06-17 17:21:44,779 [INFO] Alert successfully sent to backend.
+2026-06-17 17:21:48,026 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:22:00,086 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:22:12,131 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:22:24,155 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:22:36,179 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:22:48,218 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:23:00,268 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:23:12,323 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:23:24,365 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:23:36,429 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:23:48,473 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:24:00,508 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:24:12,570 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:24:24,628 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:24:36,686 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:24:48,734 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:25:00,780 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:25:12,829 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:25:24,862 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:25:36,925 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:25:48,967 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:26:01,008 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:26:13,047 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:26:25,088 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:26:37,139 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:26:49,180 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:26:50,273 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.1", "attack_type": "SYN Flood", "timestamp": "2026-06-17T17:26:50.273654"}
+2026-06-17 17:26:52,305 [INFO] Alert successfully sent to backend.
+2026-06-17 17:26:52,309 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T17:26:52.309232"}
+2026-06-17 17:26:54,374 [INFO] Alert successfully sent to backend.
+2026-06-17 17:26:54,380 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:26:54.380266"}
+2026-06-17 17:26:56,424 [INFO] Alert successfully sent to backend.
+2026-06-17 17:26:56,429 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T17:26:56.429070"}
+2026-06-17 17:26:58,469 [INFO] Alert successfully sent to backend.
+2026-06-17 17:26:58,474 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T17:26:58.474489"}
+2026-06-17 17:27:00,529 [INFO] Alert successfully sent to backend.
+2026-06-17 17:27:00,536 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T17:27:00.536400"}
+2026-06-17 17:27:02,590 [INFO] Alert successfully sent to backend.
+2026-06-17 17:27:02,594 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:27:02,596 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T17:27:02.596927"}
+2026-06-17 17:27:04,661 [INFO] Alert successfully sent to backend.
+2026-06-17 17:27:06,395 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T17:27:06.395877"}
+2026-06-17 17:27:08,456 [INFO] Alert successfully sent to backend.
+2026-06-17 17:27:08,460 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T17:27:08.460305"}
+2026-06-17 17:27:10,504 [INFO] Alert successfully sent to backend.
+2026-06-17 17:27:14,656 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:27:26,716 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:27:38,797 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:27:50,832 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:28:02,892 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:28:14,962 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:28:27,024 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:28:39,061 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:28:51,133 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:29:03,150 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:29:15,184 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:29:27,227 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:29:39,273 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:29:51,333 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:30:03,416 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:30:15,468 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:30:27,498 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:30:39,537 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:30:51,581 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:31:03,609 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:31:15,644 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:31:27,687 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:31:39,715 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:31:51,738 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:32:03,763 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:32:15,801 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:32:27,832 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:32:39,887 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:32:51,922 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:33:03,959 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:33:15,993 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:33:28,037 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:33:40,073 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:33:42,764 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:33:42.764720"}
+2026-06-17 17:33:44,783 [INFO] Alert successfully sent to backend.
+2026-06-17 17:33:52,145 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:34:04,210 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:34:16,253 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:34:28,318 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:34:40,368 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:34:52,417 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:35:04,481 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:35:16,535 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:35:28,606 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:35:40,651 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:35:52,706 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:36:04,770 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:36:16,826 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:36:28,878 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:36:40,933 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:36:53,015 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:37:05,063 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:37:17,127 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:37:29,184 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:37:41,257 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:37:53,287 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:38:05,327 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:38:17,371 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:38:29,425 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:38:41,451 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:38:53,511 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:39:05,558 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:39:17,588 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:39:29,632 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:39:41,689 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:39:53,740 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:40:05,795 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:40:17,842 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:40:29,875 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:40:41,905 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:40:53,941 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:41:05,993 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:41:18,021 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:41:30,074 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:41:42,132 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:41:42,816 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:41:42.816630"}
+2026-06-17 17:41:44,844 [INFO] Alert successfully sent to backend.
+2026-06-17 17:41:54,163 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:42:06,197 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:42:18,232 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:42:30,273 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:42:42,323 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:42:54,361 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:43:06,403 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:43:18,442 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:43:30,496 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:43:42,537 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:43:54,589 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:44:06,637 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:44:18,689 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:44:30,752 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:44:42,811 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:44:54,849 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:45:06,872 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:45:18,910 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:45:30,961 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:45:43,004 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:45:55,047 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:46:07,098 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:46:19,157 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:46:31,195 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:46:43,231 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:46:55,276 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:47:07,300 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:47:19,331 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:47:31,381 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:47:43,459 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:47:55,511 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:48:07,531 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:48:19,553 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:48:31,582 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:48:43,614 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:48:55,663 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:49:07,700 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:49:19,738 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:49:31,777 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:49:42,832 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:49:42.832248"}
+2026-06-17 17:49:44,874 [INFO] Alert successfully sent to backend.
+2026-06-17 17:49:44,880 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:49:56,934 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:50:08,979 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:50:21,028 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:50:33,075 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:50:45,113 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:50:57,165 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:51:09,187 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:51:21,209 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:51:33,281 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:51:45,346 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:51:57,402 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:52:09,453 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:52:21,524 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:52:33,598 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:52:45,654 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:52:57,709 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:53:09,753 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:53:21,793 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:53:33,842 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:53:45,884 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:53:57,945 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:54:09,983 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:54:22,018 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:54:34,055 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:54:46,144 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:54:58,169 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:55:10,196 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:55:22,238 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:55:34,277 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:55:46,330 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:55:58,399 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:56:10,459 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:56:14,926 [INFO] Shutting down...
+2026-06-17 17:56:14,926 [INFO] Agent stopped.
+2026-06-17 17:56:19,910 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 17:56:19,910 [INFO] Worker thread started.
+2026-06-17 17:56:19,911 [INFO] Config poller thread started.
+2026-06-17 17:56:19,911 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 17:56:19,911 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 17:56:24,001 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:29,106 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.1", "attack_type": "Port Scan", "timestamp": "2026-06-17T17:56:29.106023"}
+2026-06-17 17:56:33,173 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:33,177 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T17:56:33.177037"}
+2026-06-17 17:56:37,248 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:37,252 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:56:37.252360"}
+2026-06-17 17:56:38,088 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:41,361 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:41,363 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T17:56:41.363907"}
+2026-06-17 17:56:45,466 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:45,467 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "ICMP Flood", "timestamp": "2026-06-17T17:56:45.467029"}
+2026-06-17 17:56:49,534 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:49,536 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T17:56:49.536353"}
+2026-06-17 17:56:52,165 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:53,640 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:53,645 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T17:56:53.645010"}
+2026-06-17 17:56:57,748 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:56:57,750 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T17:56:57.750364"}
+2026-06-17 17:57:01,844 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:57:01,848 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T17:57:01.847992"}
+2026-06-17 17:57:05,924 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:57:05,928 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T17:57:05.928681"}
+2026-06-17 17:57:06,265 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:57:10,026 [ERROR] Error sending alert to backend: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/alerts/receive (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 17:57:18,307 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:57:30,373 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:57:31,077 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.1", "attack_type": "SYN Flood", "timestamp": "2026-06-17T17:57:31.077840"}
+2026-06-17 17:57:33,107 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:33,115 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T17:57:33.115128"}
+2026-06-17 17:57:35,157 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:35,162 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.3", "attack_type": "UDP Flood", "timestamp": "2026-06-17T17:57:35.162923"}
+2026-06-17 17:57:37,227 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:37,233 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.4", "attack_type": "Smurf Attack", "timestamp": "2026-06-17T17:57:37.233066"}
+2026-06-17 17:57:39,286 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:39,290 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.5", "attack_type": "Xmas Scan", "timestamp": "2026-06-17T17:57:39.290808"}
+2026-06-17 17:57:41,332 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:41,335 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.6", "attack_type": "FIN Scan", "timestamp": "2026-06-17T17:57:41.335565"}
+2026-06-17 17:57:43,380 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:43,382 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:57:43,387 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.7", "attack_type": "Null Scan", "timestamp": "2026-06-17T17:57:43.387641"}
+2026-06-17 17:57:45,424 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:47,180 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.9", "attack_type": "Land Attack", "timestamp": "2026-06-17T17:57:47.180483"}
+2026-06-17 17:57:49,242 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:49,249 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.8", "attack_type": "SYN Flood", "timestamp": "2026-06-17T17:57:49.249315"}
+2026-06-17 17:57:51,302 [INFO] Alert successfully sent to backend.
+2026-06-17 17:57:55,451 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:58:07,509 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:58:19,555 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:58:31,593 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:58:43,619 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:58:55,662 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:59:07,723 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:59:19,773 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:59:31,818 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:59:43,869 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 17:59:55,959 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:00:07,988 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:00:20,879 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:00:32,910 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:00:44,948 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:00:56,988 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:01:09,031 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:01:21,078 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:01:33,103 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:02:50,337 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 18:02:50,338 [INFO] Worker thread started.
+2026-06-17 18:02:50,339 [INFO] Config poller thread started.
+2026-06-17 18:02:50,339 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 18:02:50,339 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 18:02:54,388 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 18:03:06,468 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:03:18,524 [ERROR] Error polling config: 'IDSDetector' object has no attribute 'port_scan_window'
+2026-06-17 18:03:28,660 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T18:03:28.660121"}
+2026-06-17 18:05:56,413 [INFO] Shutting down...
+2026-06-17 18:05:56,413 [INFO] Agent stopped.
+2026-06-17 18:05:59,045 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 18:05:59,046 [INFO] Worker thread started.
+2026-06-17 18:05:59,046 [INFO] Config poller thread started.
+2026-06-17 18:05:59,046 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 18:05:59,047 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 18:06:01,089 [INFO] Configuration updated from backend.
+2026-06-17 18:06:13,127 [INFO] Configuration updated from backend.
+2026-06-17 18:06:25,183 [INFO] Configuration updated from backend.
+2026-06-17 18:06:37,232 [INFO] Configuration updated from backend.
+2026-06-17 18:06:49,279 [INFO] Configuration updated from backend.
+2026-06-17 18:07:01,294 [INFO] Configuration updated from backend.
+2026-06-17 18:07:13,322 [INFO] Configuration updated from backend.
+2026-06-17 18:07:25,362 [INFO] Configuration updated from backend.
+2026-06-17 18:07:37,386 [INFO] Configuration updated from backend.
+2026-06-17 18:07:49,425 [INFO] Configuration updated from backend.
+2026-06-17 18:08:01,458 [INFO] Configuration updated from backend.
+2026-06-17 18:08:13,493 [INFO] Configuration updated from backend.
+2026-06-17 18:08:25,524 [INFO] Configuration updated from backend.
+2026-06-17 18:08:37,544 [INFO] Configuration updated from backend.
+2026-06-17 18:08:49,608 [INFO] Configuration updated from backend.
+2026-06-17 18:09:01,660 [INFO] Configuration updated from backend.
+2026-06-17 18:09:02,365 [INFO] Shutting down...
+2026-06-17 18:09:02,365 [INFO] Agent stopped.
+2026-06-17 18:09:05,448 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 18:09:05,449 [INFO] Worker thread started.
+2026-06-17 18:09:05,449 [INFO] Config poller thread started.
+2026-06-17 18:09:05,449 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 18:09:05,450 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 18:09:07,481 [INFO] Configuration updated from backend.
+2026-06-17 18:09:19,532 [INFO] Configuration updated from backend.
+2026-06-17 18:09:31,577 [INFO] Configuration updated from backend.
+2026-06-17 18:09:43,609 [INFO] Configuration updated from backend.
+2026-06-17 18:09:55,684 [INFO] Configuration updated from backend.
+2026-06-17 18:10:07,710 [INFO] Configuration updated from backend.
+2026-06-17 18:10:19,744 [INFO] Configuration updated from backend.
+2026-06-17 18:10:31,776 [INFO] Configuration updated from backend.
+2026-06-17 18:10:43,824 [INFO] Configuration updated from backend.
+2026-06-17 18:10:55,874 [INFO] Configuration updated from backend.
+2026-06-17 18:11:07,913 [INFO] Configuration updated from backend.
+2026-06-17 18:11:19,948 [INFO] Configuration updated from backend.
+2026-06-17 18:11:31,988 [INFO] Configuration updated from backend.
+2026-06-17 18:11:44,015 [INFO] Configuration updated from backend.
+2026-06-17 18:11:56,054 [INFO] Configuration updated from backend.
+2026-06-17 18:12:08,092 [INFO] Configuration updated from backend.
+2026-06-17 18:12:20,149 [INFO] Configuration updated from backend.
+2026-06-17 18:12:32,177 [INFO] Configuration updated from backend.
+2026-06-17 18:12:44,226 [INFO] Configuration updated from backend.
+2026-06-17 18:12:56,274 [INFO] Configuration updated from backend.
+2026-06-17 18:13:08,301 [INFO] Configuration updated from backend.
+2026-06-17 18:13:20,324 [INFO] Configuration updated from backend.
+2026-06-17 18:13:32,377 [INFO] Configuration updated from backend.
+2026-06-17 18:13:44,437 [INFO] Configuration updated from backend.
+2026-06-17 18:13:56,479 [INFO] Configuration updated from backend.
+2026-06-17 18:14:08,527 [INFO] Configuration updated from backend.
+2026-06-17 18:14:20,576 [INFO] Configuration updated from backend.
+2026-06-17 18:14:32,613 [INFO] Configuration updated from backend.
+2026-06-17 18:14:44,638 [INFO] Configuration updated from backend.
+2026-06-17 18:14:56,673 [INFO] Configuration updated from backend.
+2026-06-17 18:15:08,741 [INFO] Configuration updated from backend.
+2026-06-17 18:15:20,782 [INFO] Configuration updated from backend.
+2026-06-17 18:15:32,832 [INFO] Configuration updated from backend.
+2026-06-17 18:15:44,880 [INFO] Configuration updated from backend.
+2026-06-17 18:15:56,931 [INFO] Configuration updated from backend.
+2026-06-17 18:16:08,960 [INFO] Configuration updated from backend.
+2026-06-17 18:16:20,996 [INFO] Configuration updated from backend.
+2026-06-17 18:16:33,043 [INFO] Configuration updated from backend.
+2026-06-17 18:16:45,079 [INFO] Configuration updated from backend.
+2026-06-17 18:16:57,096 [INFO] Configuration updated from backend.
+2026-06-17 18:17:09,139 [INFO] Configuration updated from backend.
+2026-06-17 18:17:21,189 [INFO] Configuration updated from backend.
+2026-06-17 18:17:33,226 [INFO] Configuration updated from backend.
+2026-06-17 18:17:45,246 [INFO] Configuration updated from backend.
+2026-06-17 18:17:57,283 [INFO] Configuration updated from backend.
+2026-06-17 18:18:09,327 [INFO] Configuration updated from backend.
+2026-06-17 18:18:21,386 [INFO] Configuration updated from backend.
+2026-06-17 18:18:33,419 [INFO] Configuration updated from backend.
+2026-06-17 18:18:45,456 [INFO] Configuration updated from backend.
+2026-06-17 18:18:57,479 [INFO] Configuration updated from backend.
+2026-06-17 18:19:09,516 [INFO] Configuration updated from backend.
+2026-06-17 18:19:21,553 [INFO] Configuration updated from backend.
+2026-06-17 18:19:33,581 [INFO] Configuration updated from backend.
+2026-06-17 18:19:45,648 [INFO] Configuration updated from backend.
+2026-06-17 18:19:57,667 [INFO] Configuration updated from backend.
+2026-06-17 18:20:09,691 [INFO] Configuration updated from backend.
+2026-06-17 18:20:21,726 [INFO] Configuration updated from backend.
+2026-06-17 18:20:33,775 [INFO] Configuration updated from backend.
+2026-06-17 18:20:45,813 [INFO] Configuration updated from backend.
+2026-06-17 18:20:57,855 [INFO] Configuration updated from backend.
+2026-06-17 18:21:09,897 [INFO] Configuration updated from backend.
+2026-06-17 18:21:21,923 [INFO] Configuration updated from backend.
+2026-06-17 18:21:33,952 [INFO] Configuration updated from backend.
+2026-06-17 18:21:45,984 [INFO] Configuration updated from backend.
+2026-06-17 18:21:58,033 [INFO] Configuration updated from backend.
+2026-06-17 18:22:10,061 [INFO] Configuration updated from backend.
+2026-06-17 18:22:22,122 [INFO] Configuration updated from backend.
+2026-06-17 18:22:34,169 [INFO] Configuration updated from backend.
+2026-06-17 18:22:46,199 [INFO] Configuration updated from backend.
+2026-06-17 18:22:58,258 [INFO] Configuration updated from backend.
+2026-06-17 18:23:02,826 [INFO] Shutting down...
+2026-06-17 18:23:02,826 [INFO] Agent stopped.
+2026-06-17 18:23:05,334 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 18:23:05,335 [INFO] Worker thread started.
+2026-06-17 18:23:05,335 [INFO] Config poller thread started.
+2026-06-17 18:23:05,335 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 18:23:05,335 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 18:23:07,377 [INFO] Configuration updated from backend.
+2026-06-17 18:23:19,444 [INFO] Configuration updated from backend.
+2026-06-17 18:23:31,498 [INFO] Configuration updated from backend.
+2026-06-17 18:23:43,550 [INFO] Configuration updated from backend.
+2026-06-17 18:23:55,606 [INFO] Configuration updated from backend.
+2026-06-17 18:24:07,640 [INFO] Configuration updated from backend.
+2026-06-17 18:24:19,665 [INFO] Configuration updated from backend.
+2026-06-17 18:24:31,714 [INFO] Configuration updated from backend.
+2026-06-17 18:24:43,750 [INFO] Configuration updated from backend.
+2026-06-17 18:24:57,564 [INFO] Configuration updated from backend.
+2026-06-17 18:25:09,606 [INFO] Configuration updated from backend.
+2026-06-17 18:25:21,635 [INFO] Configuration updated from backend.
+2026-06-17 18:25:33,675 [INFO] Configuration updated from backend.
+2026-06-17 18:25:45,735 [INFO] Configuration updated from backend.
+2026-06-17 18:25:59,770 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 18:26:01,632 [INFO] Shutting down...
+2026-06-17 18:26:01,632 [INFO] Agent stopped.
+2026-06-17 18:27:05,207 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 18:27:05,208 [INFO] Worker thread started.
+2026-06-17 18:27:05,208 [INFO] Config poller thread started.
+2026-06-17 18:27:05,208 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 18:27:05,209 [INFO] Windows detected. Sniffing on: \Device\NPF_Loopback
+2026-06-17 18:27:09,271 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-17 18:27:21,288 [INFO] Configuration updated from backend.
+2026-06-17 18:27:33,348 [INFO] Configuration updated from backend.
+2026-06-17 18:27:39,840 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "10.0.0.2", "attack_type": "SYN Flood", "timestamp": "2026-06-17T18:27:39.840801"}
+2026-06-17 18:31:44,881 [INFO] Shutting down...
+2026-06-17 18:31:44,881 [INFO] Agent stopped.
+2026-06-17 18:33:45,547 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-17 18:33:45,548 [INFO] Worker thread started.
+2026-06-17 18:33:45,549 [INFO] Config poller thread started.
+2026-06-17 18:33:45,549 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-17 18:33:45,963 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "142.250.178.14", "attack_type": "UDP Flood", "timestamp": "2026-06-17T18:33:45.963753"}
+2026-06-18 03:07:42,347 [INFO] Shutting down...
+2026-06-18 03:07:42,352 [INFO] Agent stopped.
+2026-06-18 18:32:36,902 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-18 18:32:36,903 [INFO] Worker thread started.
+2026-06-18 18:32:36,904 [INFO] Config poller thread started.
+2026-06-18 18:32:36,904 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-18 18:32:40,973 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-18 18:32:50,879 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "fe80::1", "attack_type": "Port Scan", "timestamp": "2026-06-18T18:32:50.879097"}
+2026-06-18 18:32:55,019 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-18 18:33:09,077 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-18 18:33:23,117 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-18 18:33:37,184 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-18 18:33:51,264 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-18 20:20:56,836 [INFO] Shutting down...
+2026-06-18 20:20:56,837 [INFO] Agent stopped.
+2026-06-19 15:54:41,086 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-19 15:54:41,087 [INFO] Worker thread started.
+2026-06-19 15:54:41,087 [INFO] Config poller thread started.
+2026-06-19 15:54:41,087 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-19 15:54:45,150 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-19 15:54:57,259 [INFO] Configuration updated from backend.
+2026-06-19 15:55:09,311 [INFO] Configuration updated from backend.
+2026-06-19 15:55:14,622 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.4", "attack_type": "UDP Flood", "timestamp": "2026-06-19T15:55:14.622223"}
+2026-06-19 16:25:35,136 [INFO] Shutting down...
+2026-06-19 16:25:35,136 [INFO] Agent stopped.
+2026-06-19 16:28:15,856 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-19 16:28:15,857 [INFO] Worker thread started.
+2026-06-19 16:28:15,857 [INFO] Config poller thread started.
+2026-06-19 16:28:15,857 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-19 16:28:19,955 [ERROR] Error polling config: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/config (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-06-19 16:28:25,362 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.4", "attack_type": "UDP Flood", "timestamp": "2026-06-19T16:28:25.362097"}
+2026-06-19 16:33:38,601 [INFO] Shutting down...
+2026-06-19 16:33:38,601 [INFO] Agent stopped.
+2026-06-21 04:08:56,134 [INFO] Starting SENTINEL IDS Agent: DEFAULT_AGENT_01
+2026-06-21 04:08:56,139 [INFO] Worker started.
+2026-06-21 04:08:56,140 [INFO] Config poller started.
+2026-06-21 04:08:56,140 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-21 04:08:58,231 [INFO] Configuration updated from backend.
+2026-06-21 04:09:03,683 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.7", "attack_type": "UDP Flood", "timestamp": "2026-06-21T04:09:03.683473"}
+2026-06-21 04:23:42,931 [INFO] Shutting down...
+2026-06-21 04:23:42,931 [INFO] Agent stopped.
