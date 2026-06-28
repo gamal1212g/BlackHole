@@ -2057,3 +2057,5 @@
 2026-06-28 04:30:27,934 [INFO] Configuration updated from backend.
 2026-06-28 04:30:39,985 [INFO] Configuration updated from backend.
 2026-06-28 04:30:42,782 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.6", "attack_type": "DDoS Attempt", "timestamp": "2026-06-28T04:30:42.782292"}
+2026-06-28 05:38:17,230 [INFO] Shutting down...
+2026-06-28 05:38:17,237 [INFO] Agent stopped.

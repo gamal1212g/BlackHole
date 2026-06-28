@@ -101,7 +101,7 @@ export default function ReportsPage() {
             <p className="text-sm font-bold text-[#00ff9d] tracking-widest">BLACKHOLE IDS NETWORK SECURITY</p>
           </div>
           <div className="text-right">
-            <p className="text-xs text-gray-500 font-mono">CONFIDENTIAL 
+            <p className="text-xs text-gray-500 font-mono">CONFIDENTIAL</p>
             <p className="text-xs text-gray-500 font-mono mt-1">GENERATED: {new Date().toLocaleTimeString()}</p>
           </div>
         </div>

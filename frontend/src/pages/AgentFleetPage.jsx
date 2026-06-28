@@ -33,7 +33,7 @@ export default function AgentFleetPage() {
       ram: 45
     }
   ];
-  const installCommand = `curl -sSf http:
+  const installCommand = `curl -sSf http://127.0.0.1:8000/api/v1/agent/install | bash`;
   const handleCopy = () => {
     navigator.clipboard.writeText(installCommand);
     setCopied(true);
