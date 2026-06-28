@@ -1,40 +1,30 @@
 import React, { useState } from 'react';
 import { useSecurityStore } from '../store/useSecurityStore';
 import { FileText, Printer, Calendar, ChevronDown, Activity, AlertTriangle, ShieldBan, Cpu } from 'lucide-react';
-
 export default function ReportsPage() {
   const { alerts, stats } = useSecurityStore();
   const [reportType, setReportType] = useState('Daily Summary');
   const [dateRange, setDateRange] = useState('Last 7 Days');
-
-  // Derive dynamic metrics for the report
-  const totalAnalyzed = stats.scannedTraffic || alerts.length * 2750; // Mock multiplier for visual weight
+  const totalAnalyzed = stats.scannedTraffic || alerts.length * 2750; 
   const blockedEvents = alerts.filter(a => a.analysis?.action === 'BLOCK_IP').length;
   const criticalAlerts = alerts.filter(a => a.analysis?.severity === 'Critical' || a.attack_type?.includes('DDoS')).length;
-
   const handlePrint = () => {
     window.print();
   };
-
   return (
     <div className="flex flex-col gap-6 animate-in fade-in duration-300">
-      
-      {/* Dynamic Print Styles via internal CSS */}
       <style>{`
         @media print {
           html, body {
             background-color: #0b1322 !important;
             color: #f1f5f9 !important;
           }
-          /* 1. Hide everything on the screen */
           body * {
             visibility: hidden !important;
           }
-          /* Show ONLY the report and everything inside it */
           #printable-report, #printable-report * {
             visibility: visible !important;
           }
-          /* 2. Force the report to layout perfectly at full width */
           #printable-report {
             position: absolute !important;
             left: 0 !important;
@@ -48,24 +38,18 @@ export default function ReportsPage() {
             border: none !important;
             box-shadow: none !important;
           }
-          /* 3. Clean up browser headers/footers */
           @page {
             size: auto;
             margin: 10mm;
           }
         }
       `}</style>
-
-      {/* Header */}
       <div className="flex items-center gap-3 mb-2 print:hidden">
         <FileText className="w-6 h-6 text-[#00ff9d]" />
         <h2 className="text-2xl font-black text-white tracking-widest">SYSTEM REPORTS</h2>
       </div>
-
-      {/* Top Selection Bar */}
       <div className="bg-[#0d1526] border border-gray-800 p-4 rounded-xl flex flex-wrap items-center justify-between shadow-[0_4px_20px_rgba(0,0,0,0.5)] print:hidden">
         <div className="flex items-center gap-4 flex-1">
-          {/* Report Type Dropdown */}
           <div className="relative">
             <select 
               value={reportType}
@@ -78,8 +62,6 @@ export default function ReportsPage() {
             </select>
             <ChevronDown className="w-4 h-4 text-gray-500 absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           </div>
-
-          {/* Date Range Dropdown */}
           <div className="relative">
             <select 
               value={dateRange}
@@ -92,20 +74,14 @@ export default function ReportsPage() {
             </select>
             <Calendar className="w-4 h-4 text-gray-500 absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           </div>
-
-          {/* Date Text Display */}
           <div className="px-4 py-2 border border-gray-800 rounded-lg text-gray-400 text-sm font-bold tracking-wider">
             10 June - 17 June
           </div>
         </div>
-
-        {/* Action Button */}
         <button className="px-6 py-2.5 bg-[#00ff9d] hover:bg-[#00cc7d] text-black rounded-lg text-sm font-black tracking-widest transition-all shadow-[0_0_15px_rgba(0,255,157,0.3)]">
           GENERATE REPORT
         </button>
       </div>
-
-      {/* Live Report Preview Section */}
       <div className="flex justify-between items-end mt-4 print:hidden">
         <h3 className="text-xl font-bold tracking-widest text-white">LIVE REPORT PREVIEW</h3>
         <button 
@@ -116,11 +92,7 @@ export default function ReportsPage() {
           Print / Download PDF
         </button>
       </div>
-
-      {/* The Printable Document Container */}
       <div id="printable-report" className="w-full max-w-4xl mx-auto bg-[#0a1120] border border-gray-800 border-t-4 border-t-[#00ff9d] p-8 rounded-xl shadow-2xl">
-        
-        {/* Document Header */}
         <div className="border-b border-gray-800 pb-6 mb-8 flex justify-between items-end">
           <div>
             <h1 className="text-2xl font-black text-white tracking-widest uppercase mb-1">
@@ -129,12 +101,10 @@ export default function ReportsPage() {
             <p className="text-sm font-bold text-[#00ff9d] tracking-widest">BLACKHOLE IDS NETWORK SECURITY</p>
           </div>
           <div className="text-right">
-            <p className="text-xs text-gray-500 font-mono">CONFIDENTIAL // INTERNAL USE ONLY</p>
+            <p className="text-xs text-gray-500 font-mono">CONFIDENTIAL 
             <p className="text-xs text-gray-500 font-mono mt-1">GENERATED: {new Date().toLocaleTimeString()}</p>
           </div>
         </div>
-
-        {/* Section 1: Executive Summary */}
         <div className="mb-10">
           <h2 className="text-sm font-black text-gray-400 tracking-widest uppercase border-b border-gray-800 pb-2 mb-4">1. Executive Summary</h2>
           <div className="grid grid-cols-3 gap-6">
@@ -155,8 +125,6 @@ export default function ReportsPage() {
             </div>
           </div>
         </div>
-
-        {/* Section 2: Alert Detailed Log */}
         <div className="mb-10">
           <h2 className="text-sm font-black text-gray-400 tracking-widest uppercase border-b border-gray-800 pb-2 mb-4">2. Alert Detailed Log (Top Events)</h2>
           <div className="bg-[#070d1a] rounded-lg border border-gray-800 p-4 font-mono text-sm space-y-3">
@@ -174,8 +142,6 @@ export default function ReportsPage() {
             )}
           </div>
         </div>
-
-        {/* Section 3: Agent Performance Metrics */}
         <div className="mb-10">
           <h2 className="text-sm font-black text-gray-400 tracking-widest uppercase border-b border-gray-800 pb-2 mb-4">3. Agent Performance Metrics</h2>
           <div className="grid grid-cols-2 gap-4">
@@ -201,8 +167,6 @@ export default function ReportsPage() {
             </div>
           </div>
         </div>
-
-        {/* Section 4: Recommended Actions */}
         <div>
           <h2 className="text-sm font-black text-gray-400 tracking-widest uppercase border-b border-gray-800 pb-2 mb-4">4. Recommended Actions</h2>
           <ul className="space-y-2 list-none">
@@ -220,7 +184,6 @@ export default function ReportsPage() {
             </li>
           </ul>
         </div>
-        
       </div>
     </div>
   );

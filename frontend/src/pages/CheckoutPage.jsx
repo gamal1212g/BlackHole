@@ -1,21 +1,17 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Shield, CreditCard, CheckCircle, ChevronLeft, Lock } from 'lucide-react';
-
 export default function CheckoutPage() {
   const navigate = useNavigate();
   const location = useLocation();
   const plan = location.state?.plan || 'Enterprise';
   const price = location.state?.price || 499;
-
   const [name, setName] = useState('');
   const [cardNumber, setCardNumber] = useState('');
   const [expiry, setExpiry] = useState('');
   const [cvv, setCvv] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-
-  // Format card number with spaces every 4 digits
   const handleCardNumberChange = (e) => {
     const value = e.target.value.replace(/\s/g, '').replace(/[^0-9]/gi, '');
     const parts = [];
@@ -24,8 +20,6 @@ export default function CheckoutPage() {
     }
     setCardNumber(parts.length > 1 ? parts.join(' ') : value);
   };
-
-  // Format expiry as MM/YY
   const handleExpiryChange = (e) => {
     let value = e.target.value.replace(/\D/g, '');
     if (value.length >= 2) {
@@ -33,26 +27,19 @@ export default function CheckoutPage() {
     }
     setExpiry(value);
   };
-
   const handleCheckout = (e) => {
     e.preventDefault();
     setIsProcessing(true);
-
-    // Simulate secure payment gateway processing
     setTimeout(() => {
       setIsProcessing(false);
       setIsSuccess(true);
-      
-      // Redirect to console after success animation
       setTimeout(() => {
         navigate('/console');
       }, 2000);
     }, 2500);
   };
-
   return (
     <div className="min-h-screen bg-[#070d1a] text-white flex flex-col font-sans selection:bg-[#00ff9d] selection:text-black">
-      {/* Navbar */}
       <nav className="border-b border-gray-800/60 bg-[#0d1526]/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate('/')}>
@@ -67,30 +54,21 @@ export default function CheckoutPage() {
           </button>
         </div>
       </nav>
-
-      {/* Main Content */}
       <main className="flex-1 flex items-center justify-center p-6">
         <div className="max-w-5xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          
-          {/* Left Column: Visual Card Preview & Summary */}
           <div className="flex flex-col gap-8">
             <div>
               <h1 className="text-3xl font-black mb-2">SECURE CHECKOUT</h1>
               <p className="text-gray-400">Complete your transaction via the BlackHole encrypted gateway.</p>
             </div>
-
-            {/* Glassmorphic Card Visual */}
             <div className="relative w-full max-w-md aspect-[1.586/1] rounded-2xl p-6 overflow-hidden border border-[#00ff9d]/30 shadow-[0_0_40px_rgba(0,255,157,0.15)] bg-gradient-to-br from-[#0d1526] to-[#0a101d]">
-              {/* Decorative elements */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl"></div>
               <div className="absolute bottom-0 left-0 w-32 h-32 bg-[#00ff9d]/10 rounded-full blur-3xl"></div>
-              
               <div className="relative z-10 h-full flex flex-col justify-between">
                 <div className="flex justify-between items-start">
                   <CreditCard className="w-10 h-10 text-[#00ff9d]/70" />
                   <span className="font-mono text-sm tracking-widest text-gray-400">BLACKHOLE SECURE</span>
                 </div>
-                
                 <div className="mt-4">
                   <div className="font-mono text-2xl tracking-[0.2em] text-gray-200 mb-2 min-h-[32px]">
                     {cardNumber || '•••• •••• •••• ••••'}
@@ -112,8 +90,6 @@ export default function CheckoutPage() {
                 </div>
               </div>
             </div>
-
-            {/* Order Summary */}
             <div className="bg-[#0d1526] border border-gray-800 rounded-xl p-6">
               <h3 className="text-sm font-bold text-gray-400 tracking-widest mb-4 border-b border-gray-800 pb-4">ORDER SUMMARY</h3>
               <div className="flex justify-between items-center mb-2">
@@ -130,11 +106,7 @@ export default function CheckoutPage() {
               </div>
             </div>
           </div>
-
-          {/* Right Column: Checkout Form */}
           <div className="bg-[#0d1526] border border-gray-800 rounded-2xl p-8 shadow-2xl relative overflow-hidden">
-            
-            {/* Success Overlay */}
             {isSuccess && (
               <div className="absolute inset-0 z-50 bg-[#070d1a]/95 backdrop-blur-sm flex flex-col items-center justify-center animate-in fade-in duration-300">
                 <div className="w-20 h-20 rounded-full bg-[#00ff9d]/20 flex items-center justify-center mb-6 animate-bounce">
@@ -147,14 +119,11 @@ export default function CheckoutPage() {
                 </div>
               </div>
             )}
-
             <div className="flex items-center gap-2 mb-8 text-gray-400 border-b border-gray-800 pb-4">
               <Lock className="w-4 h-4 text-[#00ff9d]" />
               <span className="text-xs font-mono tracking-widest">256-BIT ENCRYPTION ACTIVE</span>
             </div>
-
             <form onSubmit={handleCheckout} className="flex flex-col gap-6">
-              
               <div className="flex flex-col gap-2">
                 <label className="text-xs font-bold text-gray-400 tracking-wider">CARDHOLDER NAME</label>
                 <input 
@@ -166,7 +135,6 @@ export default function CheckoutPage() {
                   className="bg-[#070d1a] border border-gray-700 p-3 rounded-lg text-white focus:outline-none focus:border-[#00ff9d] transition-colors uppercase font-mono text-sm"
                 />
               </div>
-
               <div className="flex flex-col gap-2">
                 <label className="text-xs font-bold text-gray-400 tracking-wider">CARD NUMBER</label>
                 <input 
@@ -179,7 +147,6 @@ export default function CheckoutPage() {
                   className="bg-[#070d1a] border border-gray-700 p-3 rounded-lg text-white focus:outline-none focus:border-[#00ff9d] transition-colors font-mono text-sm"
                 />
               </div>
-
               <div className="grid grid-cols-2 gap-6">
                 <div className="flex flex-col gap-2">
                   <label className="text-xs font-bold text-gray-400 tracking-wider">EXPIRY DATE</label>
@@ -206,7 +173,6 @@ export default function CheckoutPage() {
                   />
                 </div>
               </div>
-
               <button 
                 type="submit"
                 disabled={isProcessing || isSuccess}
@@ -225,16 +191,12 @@ export default function CheckoutPage() {
                     <Lock className="w-4 h-4" /> AUTHORIZE SECURE PAYMENT
                   </span>
                 )}
-                {/* Button shine effect */}
                 <div className="absolute inset-0 -translate-x-full bg-white/20 group-hover:animate-[shimmer_1.5s_infinite] skew-x-12 z-0"></div>
               </button>
             </form>
           </div>
-
         </div>
       </main>
-      
-      {/* Required CSS for custom animations */}
       <style dangerouslySetInlineStyle={{__html: `
         @keyframes loading {
           0% { width: 0%; }

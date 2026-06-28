@@ -1,6 +1,5 @@
 import React from 'react';
 import { Shield, LayoutDashboard, Bell, Cpu, FileText, Server, Settings } from 'lucide-react';
-
 export default function Layout({ children, activeTab, setActiveTab }) {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
@@ -10,16 +9,13 @@ export default function Layout({ children, activeTab, setActiveTab }) {
     { id: 'agents', label: 'Agent Fleet', icon: Cpu },
     { id: 'settings', label: 'Settings', icon: Settings },
   ];
-
   return (
     <div className="flex min-h-screen bg-[#070d1a] text-white font-mono">
-      {/* Sidebar */}
       <aside className="w-64 bg-[#0d1526] border-r border-gray-800 p-6 flex flex-col gap-8">
         <div className="flex items-center gap-3 text-[#00ff9d]">
           <Shield className="w-8 h-8 animate-pulse" />
           <span className="text-xl font-bold tracking-wider">BLACKHOLE</span>
         </div>
-        
         <nav className="flex flex-col gap-2">
           {menuItems.map((item) => {
             const Icon = item.icon;
@@ -43,8 +39,6 @@ export default function Layout({ children, activeTab, setActiveTab }) {
           SYSTEM: <span className="text-[#00ff9d]">ACTIVE</span>
         </div>
       </aside>
-
-      {/* Main Content Area */}
       <main className="flex-1 p-8 overflow-y-auto">
         {children}
       </main>

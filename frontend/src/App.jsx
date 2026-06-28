@@ -15,21 +15,15 @@ import SettingsPage from './pages/SettingsPage';
 import DocsPage from './pages/DocsPage';
 import { useSecurityStore } from './store/useSecurityStore';
 import { Cpu } from 'lucide-react';
-
 function ConsoleApp() {
   const [activeTab, setActiveTab] = useState('dashboard');
   const { connectWebSocket, fetchAlerts, fetchConfig, startPolling } = useSecurityStore();
-
   useEffect(() => {
     fetchAlerts();
-    fetchConfig();
     connectWebSocket();
-    
-    // Start polling as a fail-safe for the live demo
     const stopPolling = startPolling();
     return () => stopPolling();
   }, [fetchAlerts, fetchConfig, connectWebSocket, startPolling]);
-
   return (
     <Layout activeTab={activeTab} setActiveTab={setActiveTab}>
       {activeTab === 'dashboard' && <DashboardPage />}
@@ -41,13 +35,10 @@ function ConsoleApp() {
     </Layout>
   );
 }
-
-// Wrapper component to handle programmatic navigation from LandingPage
 function LandingWrapper() {
   const navigate = useNavigate();
   return <LandingPage onEnter={() => navigate('/console')} />;
 }
-
 function App() {
   return (
     <Router>
@@ -63,5 +54,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

@@ -1,14 +1,10 @@
 import React from 'react';
 import { Shield, BookOpen, Activity, Cpu, ShieldBan, Server, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-
 export default function DocsPage() {
   const navigate = useNavigate();
-
   return (
     <div className="min-h-screen bg-[#070d1a] text-white font-sans selection:bg-[#00ff9d] selection:text-black p-8 md:p-16">
-      
-      {/* Header */}
       <div className="max-w-5xl mx-auto flex justify-between items-center mb-16 border-b border-gray-800/60 pb-8">
         <div className="flex items-center gap-4">
           <BookOpen className="w-8 h-8 text-[#00ff9d]" />
@@ -21,10 +17,7 @@ export default function DocsPage() {
           <ArrowLeft className="w-4 h-4" /> RETURN
         </button>
       </div>
-
       <div className="max-w-5xl mx-auto flex flex-col gap-12">
-        
-        {/* System Overview */}
         <section className="bg-[#0d1526] border border-gray-800 p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
           <h2 className="text-xl font-bold tracking-widest text-[#00ff9d] mb-4 flex items-center gap-3">
             <Shield className="w-6 h-6" /> 1. System Overview
@@ -33,13 +26,10 @@ export default function DocsPage() {
             BlackHole is a next-generation hybrid cybersecurity platform. It operates as a real-time security engine, intelligently combining high-speed dynamic network sniffing with active mitigation. By intercepting raw packet telemetry and instantly cross-referencing custom signature profiles, BlackHole enforces deterministic security without relying on latency-heavy cloud loops.
           </p>
         </section>
-
-        {/* Core Components */}
         <section className="bg-[#0d1526] border border-gray-800 p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
           <h2 className="text-xl font-bold tracking-widest text-[#00ff9d] mb-8 flex items-center gap-3">
             <Cpu className="w-6 h-6" /> 2. Core Components
           </h2>
-          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-[#070d1a] border border-gray-800 p-6 rounded-lg hover:border-[#00ff9d]/30 transition-colors">
               <Activity className="w-8 h-8 text-blue-400 mb-4" />
@@ -48,7 +38,6 @@ export default function DocsPage() {
                 A Scapy-based raw telemetry ingestion pipeline capable of capturing thousands of multi-layer packets per second (TCP, UDP, ICMP, etc.) directly from the network interface.
               </p>
             </div>
-
             <div className="bg-[#070d1a] border border-gray-800 p-6 rounded-lg hover:border-[#00ff9d]/30 transition-colors">
               <Server className="w-8 h-8 text-yellow-400 mb-4" />
               <h3 className="text-lg font-bold text-white mb-2">Automated Rule Matcher</h3>
@@ -56,7 +45,6 @@ export default function DocsPage() {
                 Deterministic custom signature analysis engine that evaluates traffic against known DoS, DDoS, and Port Scan patterns to accurately identify threat vectors.
               </p>
             </div>
-
             <div className="bg-[#070d1a] border border-gray-800 p-6 rounded-lg hover:border-[#00ff9d]/30 transition-colors">
               <ShieldBan className="w-8 h-8 text-red-500 mb-4" />
               <h3 className="text-lg font-bold text-white mb-2">Reactive Mitigation</h3>
@@ -66,8 +54,6 @@ export default function DocsPage() {
             </div>
           </div>
         </section>
-
-        {/* API Architecture */}
         <section className="bg-[#0d1526] border border-gray-800 p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
           <h2 className="text-xl font-bold tracking-widest text-[#00ff9d] mb-6 flex items-center gap-3">
             <Server className="w-6 h-6" /> 3. API Architecture
@@ -75,7 +61,6 @@ export default function DocsPage() {
           <p className="text-gray-400 mb-6">
             The platform relies on a robust REST and WebSocket foundation for backend synchronization and frontend state management.
           </p>
-          
           <div className="overflow-hidden rounded-lg border border-gray-800">
             <table className="w-full text-left">
               <thead className="bg-[#070d1a] text-gray-500 text-xs tracking-widest uppercase">
@@ -105,7 +90,6 @@ export default function DocsPage() {
             </table>
           </div>
         </section>
-
       </div>
     </div>
   );

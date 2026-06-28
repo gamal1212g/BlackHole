@@ -1,10 +1,8 @@
 import React from 'react';
 import { Shield, Cpu, Activity, ShieldBan, ArrowRight, Zap, Network } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-
 export default function LandingPage({ onEnter }) {
   const navigate = useNavigate();
-  
   const features = [
     {
       title: "Live Packet Sniffing",
@@ -27,11 +25,8 @@ export default function LandingPage({ onEnter }) {
       icon: <ShieldBan className="w-8 h-8 text-red-500" />
     }
   ];
-
   return (
     <div className="min-h-screen bg-[#070d1a] text-white flex flex-col font-sans selection:bg-[#00ff9d] selection:text-black">
-      
-      {/* Navbar */}
       <nav className="border-b border-gray-800/60 bg-[#0d1526]/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -46,9 +41,7 @@ export default function LandingPage({ onEnter }) {
             >
               PRICING
             </button>
-            
             <div className="w-px h-6 bg-gray-800 hidden md:block"></div>
-            
             <button 
               onClick={() => navigate('/login')}
               className="px-6 py-2 bg-[#00ff9d]/10 border border-[#00ff9d]/50 text-[#00ff9d] rounded hover:bg-[#00ff9d]/20 transition-all shadow-[0_0_15px_rgba(0,255,157,0.1)]"
@@ -58,25 +51,18 @@ export default function LandingPage({ onEnter }) {
           </div>
         </div>
       </nav>
-
-      {/* Hero Section */}
       <main className="flex-1 flex flex-col">
         <section className="relative pt-32 pb-20 px-6 flex flex-col items-center text-center overflow-hidden">
-          {/* Decorative Background Elements */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#00ff9d]/5 rounded-full blur-[120px] pointer-events-none"></div>
-          
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#00ff9d]/10 border border-[#00ff9d]/30 text-[#00ff9d] text-xs font-bold tracking-widest mb-8 animate-fade-in-up">
             <Zap className="w-3 h-3" /> STAGE 6 ARCHITECTURE DEPLOYED
           </div>
-          
           <h1 className="text-5xl md:text-7xl font-black tracking-tighter mb-6 leading-tight">
             BLACKHOLE <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00ff9d] to-blue-500">NETWORKS</span>
           </h1>
-          
           <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-12 leading-relaxed">
             A Next-Gen High-Performance Hybrid Cybersecurity Platform. Built for absolute resilience with real-time deterministic signature detection, automated firewall enforcement, and zero-latency local packet filtering.
           </p>
-          
           <div className="flex gap-4">
             <button 
               onClick={() => navigate('/login')}
@@ -97,8 +83,6 @@ export default function LandingPage({ onEnter }) {
             </button>
           </div>
         </section>
-
-        {/* Live Stats Ticker */}
         <section className="py-8 border-y border-gray-800/50 bg-[#0d1526]/30">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-center items-center gap-8 md:gap-24">
             <div className="flex flex-col items-center">
@@ -117,15 +101,12 @@ export default function LandingPage({ onEnter }) {
             </div>
           </div>
         </section>
-
-        {/* Features Grid */}
         <section id="features" className="py-24 px-6 bg-[#0d1526]/50 border-t border-gray-800/50">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tight mb-4">Core System Architecture</h2>
               <p className="text-gray-500 max-w-2xl mx-auto">Engineered to detect, analyze, and neutralize network threats autonomously without human intervention.</p>
             </div>
-            
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {features.map((feature, idx) => (
                 <div 
@@ -142,8 +123,6 @@ export default function LandingPage({ onEnter }) {
                 </div>
               ))}
             </div>
-            
-            {/* Supported Layers */}
             <div className="mt-20 text-center">
               <p className="text-xs text-gray-600 font-bold tracking-widest uppercase mb-4">Supported Protocol Layers</p>
               <div className="flex flex-wrap justify-center items-center gap-4 text-sm font-mono text-gray-400">
@@ -161,8 +140,6 @@ export default function LandingPage({ onEnter }) {
           </div>
         </section>
       </main>
-
-      {/* Footer */}
       <footer className="border-t border-gray-800/60 bg-[#070d1a] py-8 text-center text-gray-600 text-xs font-mono">
         <div className="flex justify-center items-center gap-2 mb-2">
           <Shield className="w-4 h-4 opacity-50" />

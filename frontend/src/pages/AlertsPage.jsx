@@ -1,42 +1,30 @@
 import React, { useState } from 'react';
 import { useSecurityStore } from '../store/useSecurityStore';
 import { Terminal, ShieldBan, Download, Search, X, ShieldAlert } from 'lucide-react';
-
 export default function AlertsPage() {
   const { alerts } = useSecurityStore();
-  
-  // Filter States
   const [searchIp, setSearchIp] = useState('');
   const [protocol, setProtocol] = useState('All');
   const [attackType, setAttackType] = useState('All');
-  
-  // Interaction States
   const [toast, setToast] = useState(null);
-
-  // Filtering Logic
   const filteredAlerts = alerts.filter(a => {
     const matchIp = a.source_ip?.includes(searchIp);
     const matchAttack = attackType === 'All' || a.attack_type?.includes(attackType);
-    // Since we don't have protocol in the raw alert yet, we simulate it for the demo
     const mockProtocol = a.attack_type?.includes('DDoS') ? 'TCP' : 'UDP';
     const matchProtocol = protocol === 'All' || mockProtocol === protocol;
-    
     return matchIp && matchAttack && matchProtocol;
   });
-
   const clearFilters = () => {
     setSearchIp('');
     setProtocol('All');
     setAttackType('All');
   };
-
   const handleExportCSV = () => {
     const headers = ['Timestamp', 'Source IP', 'Attack Type', 'Severity', 'Agent'];
     const rows = filteredAlerts.map(a => {
       const sev = a.analysis?.severity || (a.attack_type?.includes('DDoS') ? 'Critical' : 'Medium');
       return [a.timestamp, a.source_ip, a.attack_type, sev, a.agent_id].join(',');
     });
-    
     const csvContent = [headers.join(','), ...rows].join('\n');
     const blob = new Blob([csvContent], { type: 'text/csv' });
     const url = window.URL.createObjectURL(blob);
@@ -47,13 +35,11 @@ export default function AlertsPage() {
     link.click();
     document.body.removeChild(link);
   };
-
   const handleCopyIp = (ip) => {
     navigator.clipboard.writeText(ip);
     setToast(ip);
     setTimeout(() => setToast(null), 3000);
   };
-
   const handleBlockIp = async (ip) => {
     try {
       await fetch('http://127.0.0.1:8000/api/v1/blocklist/add', {
@@ -69,7 +55,6 @@ export default function AlertsPage() {
       console.error("Failed to block IP:", error);
     }
   };
-
   const getSeverityStyle = (alert) => {
     const sev = alert.analysis?.severity || (alert.attack_type?.includes('DDoS') ? 'Critical' : 'Medium');
     if (sev === 'Critical' || sev === 'High' || sev === 'High Risk') {
@@ -80,11 +65,8 @@ export default function AlertsPage() {
       return "border-[#00ff9d] text-[#00ff9d] bg-transparent";
     }
   };
-
   return (
     <div className="flex flex-col gap-6 animate-in fade-in duration-300">
-      
-      {/* Header */}
       <div className="flex justify-between items-center bg-[#0d1526] border border-gray-800 p-6 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
         <div>
           <h2 className="text-2xl font-black text-white tracking-widest flex items-center gap-3">
@@ -98,10 +80,7 @@ export default function AlertsPage() {
           <Download className="w-4 h-4 text-[#00ff9d]" /> EXPORT CSV
         </button>
       </div>
-
-      {/* Filter Bar Panel */}
       <div className="bg-[#0d1526] border border-gray-800 p-4 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] flex flex-wrap items-center gap-4">
-        
         <div className="relative flex-1 min-w-[200px]">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <Search className="h-4 w-4 text-gray-500" />
@@ -114,7 +93,6 @@ export default function AlertsPage() {
             className="w-full bg-[#070d1a] border border-gray-700 text-white text-sm rounded-lg pl-10 pr-4 py-2.5 focus:outline-none focus:border-[#00ff9d] transition-colors placeholder:text-gray-600"
           />
         </div>
-
         <select 
           value={protocol}
           onChange={(e) => setProtocol(e.target.value)}
@@ -125,7 +103,6 @@ export default function AlertsPage() {
           <option value="UDP">UDP</option>
           <option value="ICMP">ICMP</option>
         </select>
-
         <select 
           value={attackType}
           onChange={(e) => setAttackType(e.target.value)}
@@ -136,7 +113,6 @@ export default function AlertsPage() {
           <option value="Port Scan">Port Scan</option>
           <option value="Brute Force">Brute Force</option>
         </select>
-
         <button 
           onClick={clearFilters}
           className="px-6 py-2.5 bg-gray-800 hover:bg-gray-700 text-gray-300 rounded-lg text-sm font-bold tracking-wider transition-colors border border-gray-700"
@@ -144,8 +120,6 @@ export default function AlertsPage() {
           Clear
         </button>
       </div>
-
-      {/* System Alerts Log Table */}
       <div className="bg-[#0d1526] border border-gray-800 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] overflow-hidden">
         <div className="overflow-x-auto">
           <table className="w-full text-left whitespace-nowrap">
@@ -214,8 +188,6 @@ export default function AlertsPage() {
           </table>
         </div>
       </div>
-
-      {/* Copy Toast Notification */}
       {toast && (
         <div className="fixed bottom-8 right-8 bg-[#0a1120] border border-[#00ff9d]/50 shadow-[0_0_30px_rgba(0,255,157,0.2)] p-4 rounded-xl flex items-center gap-4 animate-in slide-in-from-bottom-5 fade-in z-50">
           <div className="w-2.5 h-2.5 rounded-full bg-[#00ff9d] animate-pulse"></div>
@@ -227,7 +199,6 @@ export default function AlertsPage() {
           </button>
         </div>
       )}
-
     </div>
   );
 }

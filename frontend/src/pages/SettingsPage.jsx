@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Settings, Bell, MessageCircle, User, Shield, CheckCircle2, History, Loader2, XCircle } from 'lucide-react';
-
-// toggle
 const Toggle = ({ enabled, onChange, label }) => (
   <label className="flex items-center justify-between cursor-pointer group">
     <span className="text-sm font-bold text-gray-300">{label}</span>
@@ -12,8 +10,6 @@ const Toggle = ({ enabled, onChange, label }) => (
     </div>
   </label>
 );
-
-// slider
 const Slider = ({ label, value, min, max, onChange, description }) => (
   <div className="flex flex-col gap-2 mb-6">
     <div className="flex justify-between items-center">
@@ -47,71 +43,72 @@ const Slider = ({ label, value, min, max, onChange, description }) => (
     <span className="text-xs text-gray-500 font-mono">{description}</span>
   </div>
 );
-
 export default function SettingsPage() {
-  // read user data
-  const currentName = localStorage.getItem('user_name') || 'BlackHole Operator';
-  const currentEmail = localStorage.getItem('user_email') || 'admin@blackhole.lab';
-
-  // default profile fallback
+  const getAuthData = () => {
+    try {
+      const userStr = localStorage.getItem('user');
+      if (userStr) {
+        return JSON.parse(userStr);
+      }
+      const token = localStorage.getItem('token') || localStorage.getItem('jwt');
+      if (token) {
+        return JSON.parse(atob(token.split('.')[1]));
+      }
+    } catch (e) 
+    return ;
+  };
+  const authData = getAuthData();
+  const rawName = localStorage.getItem('user_name') || authData.username || authData.name || 'BlackHole Operator';
+  const generatedEmail = rawName.toLowerCase().replace(/\s+/g, '.') + '@blackhole.lab';
+  const currentEmail = localStorage.getItem('user_email') || authData.email || generatedEmail;
+  const currentRole = localStorage.getItem('user_role') || authData.role || 'Lead SOC Manager / Product Engineer';
+  const currentOrg = authData.organization || 'BlackHole Cyber Security Lab';
   const FALLBACK_PROFILE = {
-    username: currentName,
+    username: rawName,
     email: currentEmail,
-    role: 'Lead SOC Manager / Product Engineer',
-    organization: 'BlackHole Cyber Security Lab',
+    role: currentRole,
+    organization: currentOrg,
     station: 'Primary Management Node (Localhost)'
   };
-
-  // state
-  const [userData, setUserData] = useState({
-    username: currentName,
-    email: currentEmail,
-    role: 'Lead SOC Manager / Product Engineer',
-    organization: 'BlackHole Cyber Security Lab',
-    station: 'Primary Management Node (Localhost)'
-  });
+  const [userData, setUserData] = useState(FALLBACK_PROFILE);
   const [tgEnabled, setTgEnabled] = useState(true);
   const [tgToken, setTgToken] = useState('8804241171:AAHQeJVoDjraC94yYMhPleUcz8-mfwvi84k');
   const [tgChatId, setTgChatId] = useState('1377720555');
   const [isTestingTg, setIsTestingTg] = useState(false);
-  
-  // thresholds
   const [portScanVal, setPortScanVal] = useState(150);
   const [ddosVal, setDdosVal] = useState(750);
   const [bruteForceVal, setBruteForceVal] = useState(30);
-
-  // toast
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [toastType, setToastType] = useState('success');
-
-  // fetch on mount
   useEffect(() => {
     const fetchData = async () => {
-      // get profile
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 1000);
-
       try {
         const profRes = await fetch('http://127.0.0.1:8000/api/v1/auth/me', {
           signal: controller.signal,
-          credentials: 'include' // Crucial for sending HTTP-only cookies
+          credentials: 'include' 
         });
         clearTimeout(timeoutId);
-
         if (profRes.ok) {
           const profData = await profRes.json();
-          setUserData(profData);
+          const fetchedName = profData.username || profData.name || rawName;
+          const genEmail = fetchedName.toLowerCase().replace(/\s+/g, '.') + '@blackhole.lab';
+          setUserData({
+            username: fetchedName,
+            email: profData.email || genEmail,
+            role: profData.role || currentRole,
+            organization: profData.organization || currentOrg,
+            station: profData.station || 'Primary Management Node (Localhost)'
+          });
         } else {
           setUserData(FALLBACK_PROFILE);
         }
       } catch (e) {
-        // Fallback instantly on timeout or network error
         setUserData(FALLBACK_PROFILE);
         console.warn("Auth fetch failed/timed out, enforcing local demo profile.");
       }
-
-      // get telegram
       try {
         const tgRes = await fetch('http://127.0.0.1:8000/api/v1/settings/telegram', {
           credentials: 'include'
@@ -120,17 +117,18 @@ export default function SettingsPage() {
           const data = await tgRes.json();
           if (data.botToken) setTgToken(data.botToken);
           if (data.chatId) setTgChatId(data.chatId);
-          // Force active state for demo regardless of DB setting
           setTgEnabled(true); 
         }
       } catch (e) {
         setTgEnabled(true);
         console.error("Failed to fetch Telegram settings", e);
       }
+      setPortScanVal(150);
+      setDdosVal(750);
+      setBruteForceVal(30);
     };
     fetchData();
   }, []);
-
   const handleSaveSettings = async () => {
     try {
       const response = await fetch('http://127.0.0.1:8000/api/v1/settings/telegram', {
@@ -143,7 +141,6 @@ export default function SettingsPage() {
           enabled: tgEnabled
         })
       });
-      
       if (response.ok) {
         setToastType('success');
         setToastMessage('✨ Settings saved & Agents updated!');
@@ -155,11 +152,9 @@ export default function SettingsPage() {
       setToastType('error');
       setToastMessage('❌ Network Error: Could not reach backend');
     }
-    
     setShowToast(true);
     setTimeout(() => setShowToast(false), 3000);
   };
-
   const handleTestTelegram = async () => {
     setIsTestingTg(true);
     try {
@@ -184,11 +179,8 @@ export default function SettingsPage() {
     setIsTestingTg(false);
     setTimeout(() => setShowToast(false), 4000);
   };
-
   return (
     <div className="flex flex-col gap-6 animate-in fade-in duration-300 relative">
-      
-      {/* header */}
       <div className="flex justify-between items-center bg-[#0d1526] border border-gray-800 p-6 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
         <div>
           <h2 className="text-2xl font-black text-white tracking-widest flex items-center gap-3">
@@ -196,13 +188,8 @@ export default function SettingsPage() {
           </h2>
         </div>
       </div>
-
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-        
-        {/* left column */}
         <div className="flex flex-col gap-6">
-          
-          {/* notifications */}
           <div className="bg-[#0d1526] border border-gray-800 p-6 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] border-l-4 border-l-blue-500">
             <div className="flex justify-between items-center mb-6">
               <h3 className="text-lg font-bold text-white tracking-widest flex items-center gap-2">
@@ -212,11 +199,9 @@ export default function SettingsPage() {
                 <div className="w-1.5 h-1.5 rounded-full bg-blue-400"></div> Connected
               </span>
             </div>
-            
             <div className="bg-[#070d1a] border border-gray-800 rounded-lg p-4 mb-6">
               <Toggle enabled={tgEnabled} onChange={() => setTgEnabled(!tgEnabled)} label="Enable Telegram Alerts" />
             </div>
-
             <div className="flex flex-col gap-4 mb-6">
               <div className="flex flex-col gap-1.5">
                 <label className="text-xs font-bold text-gray-500 tracking-wider">BOT TOKEN</label>
@@ -238,7 +223,6 @@ export default function SettingsPage() {
                 />
               </div>
             </div>
-
             <button 
               onClick={handleTestTelegram}
               disabled={isTestingTg}
@@ -252,13 +236,10 @@ export default function SettingsPage() {
               {isTestingTg ? "SENDING..." : "TEST NOTIFICATION"}
             </button>
           </div>
-
-          {/* profile */}
           <div className="bg-[#0d1526] border border-gray-800 p-6 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
             <h3 className="text-lg font-bold text-white tracking-widest flex items-center gap-2 mb-6">
               <User className="w-5 h-5 text-purple-400" /> OPERATOR PROFILE
             </h3>
-            
             <div className="flex flex-col gap-6">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
@@ -274,8 +255,6 @@ export default function SettingsPage() {
                   EDIT
                 </button>
               </div>
-
-              {/* user details */}
               <div className="grid grid-cols-2 gap-4 py-4 border-y border-gray-800/50">
                 <div>
                   <p className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mb-1">Email Address</p>
@@ -296,8 +275,6 @@ export default function SettingsPage() {
                   </p>
                 </div>
               </div>
-
-              {/* permissions */}
               <div>
                 <p className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mb-3">Assigned RBAC Permissions</p>
                 <div className="flex flex-wrap gap-2">
@@ -310,13 +287,8 @@ export default function SettingsPage() {
               </div>
             </div>
           </div>
-
         </div>
-
-        {/* right column */}
         <div className="flex flex-col gap-6">
-          
-          {/* thresholds */}
           <div className="bg-[#0d1526] border border-gray-800 p-6 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] flex flex-col h-full">
             <h3 className="text-lg font-bold text-white tracking-widest flex items-center gap-2 mb-2">
               <Shield className="w-5 h-5 text-red-500" /> ALERTS THRESHOLDS
@@ -324,7 +296,6 @@ export default function SettingsPage() {
             <p className="text-sm text-gray-400 mb-8 leading-relaxed">
               Fine-tune the volumetric detection engines. Agents will automatically sync these settings globally upon saving.
             </p>
-
             <div className="flex-1 flex flex-col justify-center">
               <Slider 
                 label="Port Scan" 
@@ -348,7 +319,6 @@ export default function SettingsPage() {
                 description="Failed SSH attempts"
               />
             </div>
-
             <button 
               onClick={handleSaveSettings}
               className="w-full mt-6 py-3.5 bg-[#00ff9d] hover:bg-[#00cc7d] text-black rounded-lg text-sm font-black tracking-widest transition-all shadow-[0_0_15px_rgba(0,255,157,0.3)]"
@@ -356,8 +326,6 @@ export default function SettingsPage() {
               SAVE THRESHOLDS
             </button>
           </div>
-
-          {/* logs */}
           <div className="bg-[#0d1526] border border-gray-800 p-6 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
             <h3 className="text-lg font-bold text-white tracking-widest flex items-center gap-2 mb-6">
               <History className="w-5 h-5 text-gray-400" /> AUDIT LOGS
@@ -375,22 +343,19 @@ export default function SettingsPage() {
                   <tr className="hover:bg-gray-800/20 transition-colors">
                     <td className="px-4 py-3 text-gray-300">DDoS Threshold updated</td>
                     <td className="px-4 py-3 text-gray-500 font-mono text-xs">2026-06-17 09:17:33</td>
-                    <td className="px-4 py-3 text-[#00ff9d] font-bold">{localStorage.getItem('user_name') || 'BlackHole Operator'}</td>
+                    <td className="px-4 py-3 text-[#00ff9d] font-bold">{userData.username}</td>
                   </tr>
                   <tr className="hover:bg-gray-800/20 transition-colors">
                     <td className="px-4 py-3 text-gray-300">Telegram Alert enabled</td>
                     <td className="px-4 py-3 text-gray-500 font-mono text-xs">2026-06-16 14:22:10</td>
-                    <td className="px-4 py-3 text-[#00ff9d] font-bold">{localStorage.getItem('user_name') || 'BlackHole Operator'}</td>
+                    <td className="px-4 py-3 text-[#00ff9d] font-bold">{userData.username}</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
-
         </div>
       </div>
-
-      {/* toast popup */}
       {showToast && (
         <div className={`fixed bottom-8 right-8 bg-[#0a1120] border shadow-[0_0_30px_rgba(0,0,0,0.5)] p-4 rounded-xl flex items-center gap-3 animate-in slide-in-from-bottom-5 fade-in z-50 ${toastType === 'success' ? 'border-[#00ff9d]/50' : 'border-red-500/50'}`}>
           {toastType === 'success' ? (
@@ -403,7 +368,6 @@ export default function SettingsPage() {
           </p>
         </div>
       )}
-
     </div>
   );
 }

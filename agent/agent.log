@@ -2041,3 +2041,12 @@
 2026-06-21 04:09:03,683 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.7", "attack_type": "UDP Flood", "timestamp": "2026-06-21T04:09:03.683473"}
 2026-06-21 04:23:42,931 [INFO] Shutting down...
 2026-06-21 04:23:42,931 [INFO] Agent stopped.
+2026-06-21 04:34:51,942 [INFO] Starting BLACKHOLE IDS Agent: DEFAULT_AGENT_01
+2026-06-21 04:34:51,942 [INFO] Worker started.
+2026-06-21 04:34:51,943 [INFO] Config poller started.
+2026-06-21 04:34:51,943 [INFO] Sniffing started... Press Ctrl+C to stop.
+2026-06-21 04:34:53,991 [INFO] Configuration updated from backend.
+2026-06-21 04:35:06,034 [INFO] Configuration updated from backend.
+2026-06-21 04:35:17,118 [WARNING] ALERT: {"agent_id": "DEFAULT_AGENT_01", "source_ip": "192.168.1.7", "attack_type": "UDP Flood", "timestamp": "2026-06-21T04:35:17.118907"}
+2026-06-23 00:26:39,142 [INFO] Shutting down...
+2026-06-23 00:26:39,149 [INFO] Agent stopped.

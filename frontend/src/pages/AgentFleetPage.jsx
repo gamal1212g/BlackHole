@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
 import { useSecurityStore } from '../store/useSecurityStore';
 import { Server, Plus, Copy, Check, Cpu, HardDrive, Clock, Loader2, X } from 'lucide-react';
-
 export default function AgentFleetPage() {
   const { agents } = useSecurityStore();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [copied, setCopied] = useState(false);
-  
-  // Local state for the Add Server form
   const [serverName, setServerName] = useState('');
   const [serverIp, setServerIp] = useState('');
-
-  // Enhance store agents with mock metrics for the UI if they don't have them
   const enrichedAgents = [
     {
       id: "Web Server 01 - Prod",
@@ -38,19 +33,14 @@ export default function AgentFleetPage() {
       ram: 45
     }
   ];
-
-  const installCommand = `curl -sSf http://localhost:8000/install.sh | bash -s -- --token xYz123_abc`;
-
+  const installCommand = `curl -sSf http:
   const handleCopy = () => {
     navigator.clipboard.writeText(installCommand);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
-
   return (
     <div className="flex flex-col gap-6 animate-in fade-in duration-300">
-      
-      {/* Header */}
       <div className="flex justify-between items-center bg-[#0d1526] border border-gray-800 p-6 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
         <h2 className="text-2xl font-black text-white tracking-widest flex items-center gap-3">
           <Server className="w-6 h-6 text-[#00ff9d]" /> AGENTS & SENSORS
@@ -62,17 +52,12 @@ export default function AgentFleetPage() {
           <Plus className="w-4 h-4" /> Add New Server
         </button>
       </div>
-
-      {/* Connected Servers Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         {enrichedAgents.map((agent, idx) => (
           <div key={idx} className="bg-[#0d1526] border border-gray-800 rounded-xl p-6 flex flex-col shadow-[0_4px_20px_rgba(0,0,0,0.5)] transition-all hover:border-gray-700 relative overflow-hidden group">
-            
-            {/* Ambient Background Glow for Active Agents */}
             {agent.status === 'ACTIVE' && (
               <div className="absolute top-0 right-0 w-32 h-32 bg-[#00ff9d]/5 rounded-full blur-3xl pointer-events-none group-hover:bg-[#00ff9d]/10 transition-colors"></div>
             )}
-
             <div className="flex justify-between items-start mb-6">
               <div>
                 <h3 className="text-lg font-bold text-white tracking-wide">{agent.id}</h3>
@@ -87,10 +72,7 @@ export default function AgentFleetPage() {
                 {agent.status}
               </div>
             </div>
-
-            {/* Metrics */}
             <div className="flex flex-col gap-4 mb-6">
-              {/* CPU */}
               <div>
                 <div className="flex justify-between items-center text-xs mb-1.5 text-gray-400 font-bold tracking-wider">
                   <div className="flex items-center gap-1.5"><Cpu className="w-3.5 h-3.5" /> CPU Usage</div>
@@ -103,8 +85,6 @@ export default function AgentFleetPage() {
                   ></div>
                 </div>
               </div>
-
-              {/* RAM */}
               <div>
                 <div className="flex justify-between items-center text-xs mb-1.5 text-gray-400 font-bold tracking-wider">
                   <div className="flex items-center gap-1.5"><HardDrive className="w-3.5 h-3.5" /> RAM Usage</div>
@@ -118,24 +98,17 @@ export default function AgentFleetPage() {
                 </div>
               </div>
             </div>
-
-            {/* Footer */}
             <div className="mt-auto pt-4 border-t border-gray-800 flex justify-end items-center text-xs text-gray-500 font-mono">
               <div className="flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5" /> Last heartbeat: {agent.lastHeartbeat}
               </div>
             </div>
-
           </div>
         ))}
       </div>
-
-      {/* "Add New Server" Popup Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
           <div className="bg-[#0d1526] border border-gray-700 rounded-2xl max-w-2xl w-full shadow-2xl relative flex flex-col animate-in zoom-in-95 duration-200 overflow-hidden">
-            
-            {/* Modal Header */}
             <div className="flex justify-between items-center p-6 border-b border-gray-800 bg-[#0a1120]">
               <h3 className="text-xl font-black text-white tracking-widest flex items-center gap-2">
                 <Server className="w-5 h-5 text-[#00ff9d]" /> ADD NEW SERVER NODE
@@ -147,10 +120,7 @@ export default function AgentFleetPage() {
                 <X className="w-6 h-6" />
               </button>
             </div>
-
             <div className="p-8 flex flex-col gap-8">
-              
-              {/* Step 1 */}
               <div>
                 <h4 className="text-sm font-bold text-[#00ff9d] tracking-widest mb-4 flex items-center gap-2">
                   <span className="w-6 h-6 rounded-full bg-[#00ff9d]/20 flex items-center justify-center border border-[#00ff9d]/50">1</span>
@@ -179,8 +149,6 @@ export default function AgentFleetPage() {
                   </div>
                 </div>
               </div>
-
-              {/* Step 2 */}
               <div>
                 <h4 className="text-sm font-bold text-[#00ff9d] tracking-widest mb-4 flex items-center gap-2">
                   <span className="w-6 h-6 rounded-full bg-[#00ff9d]/20 flex items-center justify-center border border-[#00ff9d]/50">2</span>
@@ -202,21 +170,16 @@ export default function AgentFleetPage() {
                   </div>
                 </div>
               </div>
-
             </div>
-
-            {/* Modal Footer / Status Line */}
             <div className="bg-[#0a1120] border-t border-gray-800 p-6 flex items-center justify-center">
               <div className="flex items-center gap-3 text-gray-400 font-mono text-sm bg-gray-900/50 px-6 py-2.5 rounded-full border border-gray-800">
                 <Loader2 className="w-4 h-4 animate-spin text-[#00ff9d]" />
                 ⏳ Waiting for agent handshake...
               </div>
             </div>
-
           </div>
         </div>
       )}
-
     </div>
   );
 }

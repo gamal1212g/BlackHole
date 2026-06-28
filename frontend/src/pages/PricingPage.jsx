@@ -1,14 +1,10 @@
 import React from 'react';
 import { Shield, Zap, Lock, ShieldCheck, ArrowRight, ChevronLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-
 export default function PricingPage() {
   const navigate = useNavigate();
-
   return (
     <div className="min-h-screen bg-[#070d1a] text-white flex flex-col font-sans selection:bg-[#00ff9d] selection:text-black">
-      
-      {/* Navbar */}
       <nav className="border-b border-gray-800/60 bg-[#0d1526]/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate('/')}>
@@ -23,8 +19,6 @@ export default function PricingPage() {
           </button>
         </div>
       </nav>
-
-      {/* Main Content */}
       <main className="flex-1 max-w-7xl mx-auto px-6 py-20 w-full">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#00ff9d]/10 border border-[#00ff9d]/30 text-[#00ff9d] text-xs font-bold tracking-widest mb-6">
@@ -37,9 +31,7 @@ export default function PricingPage() {
             Deploy BlackHole across your entire fleet. Leverage high-performance deterministic threat analysis, dedicated WebSocket pools, and global firewall orchestration.
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {/* Developer Tier */}
           <div className="bg-[#0d1526] border border-gray-800 rounded-2xl p-8 flex flex-col hover:border-gray-600 transition-colors">
             <div className="mb-8">
               <h3 className="text-xl font-bold text-gray-200 mb-2">Developer</h3>
@@ -59,8 +51,6 @@ export default function PricingPage() {
               CURRENT PLAN
             </button>
           </div>
-
-          {/* Enterprise Tier */}
           <div className="bg-[#070d1a] border-2 border-[#00ff9d] rounded-2xl p-8 flex flex-col relative transform md:-translate-y-4 shadow-[0_0_50px_rgba(0,255,157,0.1)]">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#00ff9d] text-black text-xs font-black px-4 py-1 rounded-full tracking-widest">
               RECOMMENDED
@@ -86,8 +76,6 @@ export default function PricingPage() {
               UPGRADE NOW <ArrowRight className="w-4 h-4" />
             </button>
           </div>
-
-          {/* Global Tier */}
           <div className="bg-[#0d1526] border border-gray-800 rounded-2xl p-8 flex flex-col hover:border-blue-500/50 transition-colors">
             <div className="mb-8">
               <h3 className="text-xl font-bold text-gray-200 mb-2">Global Defense</h3>
