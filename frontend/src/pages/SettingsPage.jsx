@@ -54,8 +54,9 @@ export default function SettingsPage() {
       if (token) {
         return JSON.parse(atob(token.split('.')[1]));
       }
-    } catch (e) 
-    return ;
+    } catch (e) {
+      return;
+    }
   };
   const authData = getAuthData();
   const rawName = localStorage.getItem('user_name') || authData.username || authData.name || 'BlackHole Operator';
