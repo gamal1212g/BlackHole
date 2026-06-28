@@ -58,7 +58,7 @@ export default function SettingsPage() {
       return;
     }
   };
-  const authData = getAuthData();
+  const authData = getAuthData() || {};
   const rawName = localStorage.getItem('user_name') || authData.username || authData.name || 'BlackHole Operator';
   const generatedEmail = rawName.toLowerCase().replace(/\s+/g, '.') + '@blackhole.lab';
   const currentEmail = localStorage.getItem('user_email') || authData.email || generatedEmail;
